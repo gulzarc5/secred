@@ -72,7 +72,7 @@
 
                 <div>
                   <h1>
-                    SECRED HEART
+                    SECRED HEART 
                     {{-- <img src="{{ asset('logo/logo.png')}}" height="150"> --}}
                   </h1>
                   <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
