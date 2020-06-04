@@ -11,7 +11,6 @@
 |
 */
 require __DIR__.'/admin.php';
+require __DIR__.'/frontend.php';
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
