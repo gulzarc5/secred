@@ -116,10 +116,10 @@
                         </div>
                         <div class="main-menu">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="{{route('web.admission')}}">Home</a></li>
                                 <li class="about-menu"><a href="" class="mm-arr">About us</a></li>
                                 <li class="admi-menu"><a href="#" class="mm-arr">Academics Stuff</a></li>
-                                <li><a href="all-courses.html">Admission</a></li>
+                                <li><a href="{{route('web.admission')}}">Admission</a></li>
                                 <li><a href="">Academics</a></li>
                                 <li><a href="">Notice</a></li>
                                 <li><a href="">Result</a></li>
