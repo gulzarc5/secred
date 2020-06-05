@@ -96,7 +96,6 @@
 
             </div>
             <!-- /sidebar menu -->
-
             <!-- /menu footer buttons -->
             <div class="sidebar-footer hidden-small">
               <a data-toggle="tooltip" data-placement="top" title="Settings">

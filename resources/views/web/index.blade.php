@@ -17,9 +17,9 @@
                 <div class="item slider1 active">
                     <img src="{{asset('web/images/slider/1.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
-                        <h2>Welcome to <span>University</span></h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                        <a href="#" class="bann-btn-1">All Courses</a><a href="#" class="bann-btn-2">Read More</a>
+                        <h2>Welcome to <span>SACRED HEART JUNIOR COLLEGE</span></h2>
+                        {{-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p> --}}
+                        For Admission <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
                     </div>
                 </div>
                 <div class="item">

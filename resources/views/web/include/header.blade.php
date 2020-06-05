@@ -5,7 +5,7 @@
             <div class="ed-mob-menu-con">
                 <div class="ed-mm-left">
                     <div class="wed-logo">
-                        <a href="index.html"><img src="{{asset('web/images/logo.png')}}" alt="" />
+                        <a href="{{route('web.index')}}"><img src="{{asset('web/images/logo.png')}}" alt="" />
                         </a>
                     </div>
                 </div>
@@ -16,22 +16,22 @@
                             <a href="#!" class="ed-mi-close"><i class="fa fa-times"></i></a>
                             <h4>All Courses</h4>
                             <ul>
-                                <li><a href="course-details.html">Accounting/Finance</a></li>
-                                <li><a href="course-details.html">civil engineering</a></li>
-                                <li><a href="course-details.html">Art/Design</a></li>
-                                <li><a href="course-details.html">Marine Engineering</a></li>
-                                <li><a href="course-details.html">Business Management</a></li>
-                                <li><a href="course-details.html">Journalism/Writing</a></li>
-                                <li><a href="course-details.html">Physical Education</a></li>
-                                <li><a href="course-details.html">Political Science</a></li>
-                                <li><a href="course-details.html">Sciences</a></li>
-                                <li><a href="course-details.html">Statistics</a></li>
-                                <li><a href="course-details.html">Web Design/Development</a></li>
-                                <li><a href="course-details.html">SEO</a></li>
-                                <li><a href="course-details.html">Google Business</a></li>
-                                <li><a href="course-details.html">Graphics Design</a></li>
-                                <li><a href="course-details.html">Networking Courses</a></li>
-                                <li><a href="course-details.html">Information technology</a></li>
+                                <li><a href="#">Accounting/Finance</a></li>
+                                <li><a href="#">civil engineering</a></li>
+                                <li><a href="#">Art/Design</a></li>
+                                <li><a href="#">Marine Engineering</a></li>
+                                <li><a href="#">Business Management</a></li>
+                                <li><a href="#">Journalism/Writing</a></li>
+                                <li><a href="#">Physical Education</a></li>
+                                <li><a href="#">Political Science</a></li>
+                                <li><a href="#">Sciences</a></li>
+                                <li><a href="#">Statistics</a></li>
+                                <li><a href="#">Web Design/Development</a></li>
+                                <li><a href="#">SEO</a></li>
+                                <li><a href="#">Google Business</a></li>
+                                <li><a href="#">Graphics Design</a></li>
+                                <li><a href="#">Networking Courses</a></li>
+                                <li><a href="#">Information technology</a></li>
                             </ul>
                             <h4>User Account</h4>
                             <ul>
@@ -40,25 +40,25 @@
                             </ul>
                             <h4>All Pages</h4>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="admission.html">Admission</a></li>
-                                <li><a href="all-courses.html">All courses</a></li>
-                                <li><a href="course-details.html">Course details</a></li>
-                                <li><a href="awards.html">Awards</a></li>
-                                <li><a href="seminar.html">Seminar</a></li>
-                                <li><a href="events.html">Events</a></li>
-                                <li><a href="event-details.html">Event details</a></li>
-                                <li><a href="event-register.html">Event register</a></li>
-                                <li><a href="contact-us.html">Contact us</a></li>
+                                <li><a href="{{route('web.index')}}">Home</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Admission</a></li>
+                                <li><a href="#">All courses</a></li>
+                                <li><a href="#">Course details</a></li>
+                                <li><a href="#">Awards</a></li>
+                                <li><a href="#">Seminar</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Event details</a></li>
+                                <li><a href="#">Event register</a></li>
+                                <li><a href="#">Contact us</a></li>
                             </ul>
                             <h4>User Profile</h4>
                             <ul>
-                                <li><a href="dashboard.html">User profile</a></li>
-                                <li><a href="db-courses.html">Courses</a></li>
-                                <li><a href="db-exams.html">Exams</a></li>
-                                <li><a href="db-profile.html">Prfile</a></li>
-                                <li><a href="db-time-line.html">Time line</a></li>
+                                <li><a href="#">User profile</a></li>
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Exams</a></li>
+                                <li><a href="#">Prfile</a></li>
+                                <li><a href="#">Time line</a></li>
                             </ul>
                         </div>
                     </div>
@@ -111,19 +111,19 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wed-logo">
-                            <a href="index.html"><img src="{{asset('web/images/logo.png')}}" alt="" />
+                            <a href="{{route('web.index')}}"><img src="{{asset('web/images/logo.png')}}" alt="" />
                             </a>
                         </div>
                         <div class="main-menu">
                             <ul>
-                                <li><a href="{{route('web.admission')}}">Home</a></li>
-                                <li class="about-menu"><a href="" class="mm-arr">About us</a></li>
+                                <li><a href="{{route('web.index')}}">Home</a></li>
+                                <li class="#"><a href="" class="mm-arr">About us</a></li>
                                 <li class="admi-menu"><a href="#" class="mm-arr">Academics Stuff</a></li>
                                 <li><a href="{{route('web.admission')}}">Admission</a></li>
-                                <li><a href="">Academics</a></li>
-                                <li><a href="">Notice</a></li>
-                                <li><a href="">Result</a></li>
-                                <li><a href="">Contact us</a></li>
+                                <li><a href="#">Academics</a></li>
+                                <li><a href="#">Notice</a></li>
+                                <li><a href="#">Result</a></li>
+                                <li><a href="#">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
