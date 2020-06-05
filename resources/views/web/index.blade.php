@@ -9,7 +9,7 @@
 @endsection
 
 @section('content') 
-   <!-- SLIDER -->
+    <!-- SLIDER -->
     <section>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
