@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>SECRED HEART</title>
-    {{-- <link rel="icon" href="{{ asset('/logo/logo.png')}}" type="image/icon type"> --}}
+    <link rel="icon" href="{{ asset('web/images/logo.png')}}" type="image/icon type">
 
     <!-- Bootstrap -->
     <link href="{{asset('admin/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -72,10 +72,9 @@
 
                 <div>
                   <h1>
-                    SECRED HEART 
-                    {{-- <img src="{{ asset('logo/logo.png')}}" height="150"> --}}
+                    <img src="{{ asset('web/images/logo.png')}}" height="150">
                   </h1>
-                  <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                  <p>©2016 All Rights Reserved. SECRED HEART . Privacy and Terms</p>
                 </div>
               </div>
             {{ Form::close() }}

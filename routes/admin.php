@@ -7,6 +7,9 @@ Route::group(['namespace' => 'Admin'],function(){
 
     Route::group(['middleware'=>'auth:admin','prefix'=>'admin'],function(){
         Route::get('/dashboard', 'DashboardController@dashboardView')->name('admin.deshboard');
+
+        Route::get('/user/list', 'AdmsnController@userList')->name('admin.user_list');
+        Route::get('/user/list/ajax', 'AdmsnController@userListAjax')->name('admin.user_list_ajax');
     });
 
 });

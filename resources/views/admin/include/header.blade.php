@@ -11,10 +11,10 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="images/favicon.ico" type="image/ico" />
+    <link rel="icon" href="images/favicon.ico" type="image/ico" />
 
-    <title>TAMBOLA</title>
-    {{-- <link rel="icon" href="{{ asset('logo/logo.png')}}" type="image/icon type"> --}}
+    <title>SECRED HEART</title>
+    <link rel="icon" href="{{ asset('web/images/logo.png')}}" type="image/icon type">
 
 
     <!-- Bootstrap -->
@@ -57,8 +57,7 @@
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
               <a href="{{route('admin.deshboard')}}" class="site_title">
-                TAMBOLA
-                {{-- <img src="{{ asset('logo/logo.png')}}" height="50" style=" width: 50%;"> --}}
+                <img src="{{ asset('web/images/logo.png')}}" height="50" style=" width: 30%;">
               </a>
             </div>
 
@@ -84,6 +83,11 @@
                 <h3>General</h3>
                 <ul class="nav side-menu">
                   <li><a href="{{ route('admin.deshboard')}}"><i class="fa fa-home"></i> Home </span></a>
+                  </li>
+                  <li><a><i class="fa fa-users" aria-hidden="true"></i> Users <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li class="sub_menu"><a href="{{route('admin.user_list')}}">User List</a></li>
+                    </ul>
                   </li>
                   <li><a href="#"><i class="fa fa-key" aria-hidden="true"></i>Change Password</a></li>
 
