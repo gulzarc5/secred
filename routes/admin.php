@@ -10,6 +10,7 @@ Route::group(['namespace' => 'Admin'],function(){
 
         Route::get('/user/list', 'AdmsnController@userList')->name('admin.user_list');
         Route::get('/user/list/ajax', 'AdmsnController@userListAjax')->name('admin.user_list_ajax');
+        Route::get('/user/details/{id}', 'AdmsnController@userDetails')->name('admin.user_details');
     });
 
 });

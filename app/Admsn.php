@@ -8,6 +8,6 @@ class Admsn extends Model
 {
     protected $table = 'admsn';
     protected $fillable = [
-        'name','father_name','mother_name','dob','gender','admsn_sought','p_address_id','r_address_id','aggrement',
+        'name','dob','gender','religion','caste','stream','r_address','mobile','email','father_name','mother_name','previous_school','board','session','division','medium','percentile','eng','second_lang','maths','science','social_science','other','payment_type','payment_status','payment_id','transaction_id','aggrement',
     ];
 }

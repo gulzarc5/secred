@@ -23,7 +23,6 @@
                                 <th>Mobile</th>
                                 <th>Payment Type</th>
                                 <th>Payment Status</th>
-                                <th>Status</th>
                                 <th>Action</th>
                             </tr>
                             </thead>
@@ -52,11 +51,11 @@
                 columns: [
                     {data: 'DT_RowIndex', name: 'DT_RowIndex'},      
                     {data: 'name', name: 'name',searchable: true},    
-                    {data: 'admsn_sought', name: 'admsn_sought',searchable: true},          
+                    {data: 'stream', name: 'stream',searchable: true},          
                     {data: 'email', name: 'email',searchable: true},
                     {data: 'mobile', name: 'mobile',searchable: true}, 
-                    {data: 'payment_type', name: 'payment_type' ,searchable: true}, 
-                    {data: 'payment_status', name: 'payment_status' ,searchable: true},
+                    {data: 'payment_typess', name: 'payment_typess' ,searchable: true}, 
+                    {data: 'payment_statuss', name: 'payment_statuss' ,searchable: true},
                     {data: 'action', name: 'action' ,searchable: true}, 
                 ]
             });            
