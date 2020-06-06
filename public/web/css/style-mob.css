@@ -97,7 +97,7 @@
          border: 0px;
     }
      .carousel {
-         margin-top: 0px;
+         margin-top: 50px;
     }
      .home-top-cour-desc h3{
          margin-top:20px;
@@ -488,7 +488,7 @@
 /*-------------------------------------------------------*/
  @media screen and (max-width:480px){
      .mobile-logo{
-         width:40px !important;
+         width:150px !important;
      }
      .wed-hom-ser ul li a {
          width: 62px;
