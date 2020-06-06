@@ -18,10 +18,10 @@
                             <h4>All Pages</h4>
                             <ul>
                                 <li><a href="{{route('web.index')}}">Home</a></li>
-                                <li class="#"><a href="" class="mm-arr">About us</a></li>
+                                <li class="#"><a href="{{route('web.about')}}" class="mm-arr">About us</a></li>
                                 <li class="admi-menu"><a href="#" class="mm-arr">Academics Stuff</a></li>
                                 <li><a href="{{route('web.admission')}}">Admission</a></li>
-                                <li><a href="#">Academics</a></li>
+                                <li><a href="{{route('web.academics')}}">Academics</a></li>
                                 <li><a href="#">Notice</a></li>
                                 <li><a href="#">Result</a></li>
                                 <li><a href="#">Contact us</a></li>
@@ -43,19 +43,11 @@
                     <div class="col-md-12">
                         <div class="ed-com-t1-left">
                             <ul>
-                                <li><a href="#">COLLEGE ROAD, LALA, (NEAR BSNL OFFICE) HAILAKANDI, ASSAM</a>
+                                <li><a href="#">Contact: COLLEGE ROAD, LALA, (NEAR BSNL OFFICE) HAILAKANDI, ASSAM</a>
                                 </li>
-                                <li><a href="#">Mobile: +91-8471840057 / +91-9085400374 / +91-9101169941</a>
+                                <li><a href="#">Phone: +91-8471840057 / +91-9085400374 / +91-9101169941</a>
                                 </li>
                             </ul>
-                        </div>
-                        <div class="ed-com-t1-right">
-                            {{-- <ul>
-                                <li><a href="#!" data-toggle="modal" data-target="#modal1">Sign In</a>
-                                </li>
-                                <li><a href="#!" data-toggle="modal" data-target="#modal2">Sign Up</a>
-                                </li>
-                            </ul> --}}
                         </div>
                         <div class="ed-com-t1-social">
                             <ul>
@@ -84,10 +76,10 @@
                         <div class="main-menu">
                             <ul>
                                 <li><a href="{{route('web.index')}}">Home</a></li>
-                                <li class="#"><a href="" class="mm-arr">About us</a></li>
+                                <li class="about-menu"><a href="{{route('web.about')}}" class="mm-arr">About us</a></li>
                                 <li class="admi-menu"><a href="#" class="mm-arr">Academics Stuff</a></li>
                                 <li><a href="{{route('web.admission')}}">Admission</a></li>
-                                <li><a href="#">Academics</a></li>
+                                <li><a href="{{route('web.academics')}}">Academics</a></li>
                                 <li><a href="#">Notice</a></li>
                                 <li><a href="#">Result</a></li>
                                 <li><a href="#">Contact us</a></li>

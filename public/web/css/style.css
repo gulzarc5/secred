@@ -143,7 +143,7 @@ p, li, a, span, table, tr, td, th, label{
 .wed-logo a{
 }
 .wed-logo a img{
-    width: 30%;
+    width: 100%;
 }
 .wed-menu{
     float: right;
@@ -1829,15 +1829,19 @@ p, li, a, span, table, tr, td, th, label{
 }
 .course-overlay span{
     position: absolute;
-    top: 50%;
+    bottom: -30px;
     left: 0;
     right: 0;
     text-align: center;
     transform: translateY(-50%);
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 600;
-    color: #fff;
+    color: #f26838;
     z-index: 1;
+    background: #fff;
+    padding: 10px 0;
+    width: 90%;
+    margin: auto;
 }
 .ed-course-in a.course-overlay img {
     -webkit-transform: scale(1);
@@ -1852,7 +1856,6 @@ p, li, a, span, table, tr, td, th, label{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(31, 44, 115, 0.57);
 }
 .ed-course-in:hover a.course-overlay img {
     -webkit-transform: scale(1.1);
@@ -2296,8 +2299,9 @@ p, li, a, span, table, tr, td, th, label{
 }
 .pro-con-table{
     border: 1px solid #f7f8f9;
-    padding: 5px 15px;
+    padding: 5px;
     margin-top: 25px;
+    border-color: #f36b3b!important;
 }
 .pro-con-table tr{
     line-height: 50px;
@@ -4185,7 +4189,7 @@ left: 0;
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 55px;
+    height: 75px;
     background: #fff;
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.32);
     z-index: 999;
@@ -5690,3 +5694,35 @@ padding: 6px 25px;
 .ad-log-in-con p{}
 .ad-log-in-con form{}
 .ad-log-in-con form input{}
+.p-justfy p {
+    text-align: justify;
+}
+.text-white {
+    color: #fff;
+}
+/* ================= News */
+.holder { 
+    background-color:#f2f2f2;
+    width:100%;
+    height:500px;
+    overflow:hidden;
+    padding:0 10px;
+    font-family:Helvetica;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+    .holder .mask {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    width:100%;
+    height:500px;
+    overflow: hidden;
+}
+    .holder ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+    width:100%
+}

@@ -156,7 +156,7 @@
                                             </span>
                                         @enderror
                                     </label>
-                                    <textarea class="form-control" rows="6" placeholder="Enter Name and address of Previous school" name="school_address">{{old('school_address')}}</textarea>
+                                    <textarea class="form-control" rows="5" placeholder="Enter Name and address of Previous school" name="school_address">{{old('school_address')}}</textarea>
                                 </div>
                                 <div class="col-sm-6">
                                     <label class="control-label">12.b Name of Board:
@@ -251,16 +251,23 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-sm-12">
+                                <div class="col-sm-12"><h5 class="control-label" style="text-decoration:underline">Payment Methord</h5></div>
+                                <div class="col-sm-2">
                                     <h5>
                                         <strong>
-                                            <input type="radio" name="payment_type" class="form-control" value="1" > &nbsp; &nbsp;&nbsp;Pay At College.
-                                            <input type="radio" name="payment_type" value="2" checked> &nbsp; &nbsp;&nbsp;Pay Online.
+                                            <input type="radio" name="payment_type" class="othrcheck" value="1" > &nbsp; &nbsp;&nbsp;Pay At College.
+                                        </strong>
+                                    </h5>
+                                </div>
+                                <div class="col-sm-2">
+                                    <h5>
+                                        <strong>
+                                            <input type="radio" name="payment_type" class="othrcheck" value="2" checked> &nbsp; &nbsp;&nbsp;Pay Online.
                                         </strong>
                                     </h5>
                                 </div>
                             </div>
-                            <style>input.othrcheck[type="checkbox"] {position: absolute;left: 0;opacity: 1;} </style>
+                            <style>input.othrcheck[type="checkbox"] {position: absolute;left: 0;opacity: 1;} input.othrcheck[type="radio"] {position: absolute;opacity: 1;left: 0;top: -14px;}  </style>
                             <div class="form-group mar-bot-0">
                                 <div class="col-sm-offset-3 col-sm-6">
                                     <i class="waves-effect waves-light light-btn waves-input-wrapper" style=""><input type="submit" value="APPLY NOW" class="waves-button-input"></i>

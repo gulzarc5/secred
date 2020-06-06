@@ -38,14 +38,6 @@
                         <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
                     </div>
                 </div>
-                <div class="item">
-                    <img src="{{asset('web/images/slider/3.jpg')}}" alt="">
-                    <div class="carousel-caption slider-con">
-                        <h2>ADMISSION OPEN<span> 2020</span></h2>
-                        <p>Arts Commerce English and Bengali mediun Admission for 2020 batch going on Hurry up limited seats</p>
-                        <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
-                    </div>
-                </div>
             </div>
 
             <!-- Left and right controls -->
@@ -94,7 +86,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="bot-gal h-vid ho-event-mob-bot-sp" style="text-align: justify;">
+                    <div class="bot-gal h-vid ho-event-mob-bot-sp p-justfy">
                         <h4>principal Messege</h4>
                         <p class="first">Welcome to <strong>Secret Heart Junior College</strong> a co-educational AHSEC affiliated private institute with a distinct and successful culture of students learning together, supporting and encouraging each other to do their best.</p>
                         <p>&emsp;&emsp;&ensp;At <strong>Sacred Heart Junior College</strong>, both academic and non academic staff work collaboratively to develop a clear, comprehensive and cohesive curriculum, to support the health and welbeing of students, and to challenge our students to reach their highest potential.</p>
@@ -102,18 +94,20 @@
                         <p>&emsp;&emsp;&ensp;I am confident that with the excellent team, we are always here to enhance and strengthen the success of <strong>Sacred Heart Junior College</strong>.</p>
                         <p>l am looking forward to continuing this process with you.</p>                           
                         <p>Sincerely on behalf of allof us at <strong>Sacred Heart Junior College</strong></p>
-                        <b style="float: right;">
-                            <pre >LKalimohan Singha
-M.A., B.Ed. (Retd. Principal, Indramani H.5. School)
-Principal
-                            </pre></b>  
+                        <div style="margin-top: 40px;">
+                            <h1 style="font-family: 'Cookie', cursive;">LKalimohan Singha</h1>
+                            <p style="font-family: 'Cookie', cursive;font-size:20px">
+                                M.A., B.Ed. (Retd. Principal, Indramani H.5. School) <br>
+                                Principal
+                            </p>
+                        </div>  
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="bot-gal h-blog ho-event">
                         <h4>Notification</h4>
-                        <div class="ho-event">
-                            <ul>
+                        <div class="ho-event holder">
+                            <ul id="ticker01">
                                 <li>
                                     <div class="ho-ev-date"><span>01</span><span>Jun,2020</span>
                                     </div>
@@ -171,7 +165,7 @@ Principal
         <div class="container com-sp pad-bot-0">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="bot-gal h-vid ho-event-mob-bot-sp">
+                    <div class="bot-gal h-vid ho-event-mob-bot-sp p-justfy">
                         <h4>Welcome to Secret Heart</h4>
                         <p class="first"><strong>Sacred Heart Junior College</strong> is a place where we have committed ourselves to the vision of raising achievement, enhancing aspirations and enriching innovations. It is through which we create focus on students' success. This college is a result of dream of a bunch of dignified, solemn and dedicated youths of the locality, who have already established their potential in different competitive exams, specially in CTET & ATET.<a href="#" style="color:red">Read More</a></p>
                         <h5>Distinctive Features</h5>
@@ -295,6 +289,8 @@ Principal
                     </div>
                     <div class="bot-gal h-gal ho-event-mob-bot-sp" style="margin-top: 6px">
                         <h4>Facebook Page</h4>
+                        <div id="facebook-div">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -303,11 +299,10 @@ Principal
 
     <!-- DISCOVER MORE -->
     <section>
-        <div class="container com-sp pad-bot-70">
+        <div class="container com-sp pad-bot-50">
             <div class="row">
                 <div class="con-title">
-                    <h2>Academic <span>Stuff</span></h2>
-                    <p>Fusce id sem at ligula laoreet hendrerit venenatis sed purus. Ut pellentesque maximus lacus, nec pharetra augue.</p>
+                    <h2>Well <span>Wisher</span></h2>
                 </div>
             </div>
             <div class="row">
@@ -315,64 +310,65 @@ Principal
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
                             <a class="course-overlay" href="about.html">
-                                <img src="{{asset('web/images/h-about.jpg')}}" alt="">
-                                <span>Academics</span>
+                                <img src="{{asset('web/images/welwisher/1.jpg')}}" alt="">
+                                <span>Zahid Islam Barbhuiya</span>
+                                <span></span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
                             <a class="course-overlay" href="admission.html">
-                                <img src="{{asset('web/images/h-adm1.jpg')}}" alt="">
-                                <span>Admission</span>
+                                <img src="{{asset('web/images/welwisher/2.jpg')}}" alt="">
+                                <span>Monoj Singha</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
                             <a class="course-overlay" href="dashboard.html">
-                                <img src="{{asset('web/images/h-cam.jpg')}}" alt="">
-                                <span>Students profile</span>
+                                <img src="{{asset('web/images/welwisher/3.jpg')}}" alt="">
+                                <span>Parthapeatim Chakrabarty</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
                             <a class="course-overlay" href="research.html">
-                                <img src="{{asset('web/images/h-res.jpg')}}" alt="">
-                                <span>Research & Education</span>
+                                <img src="{{asset('web/images/welwisher/4.jpg')}}" alt="">
+                                <span>Soruj Nath</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
                             <a class="course-overlay" href="all-courses.html">
-                                <img src="{{asset('web/images/h-about1.jpg')}}" alt="">
-                                <span>Couse</span>
+                                <img src="{{asset('web/images/welwisher/5.jpg')}}" alt="">
+                                <span>Sahid Iqbal</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
                             <a class="course-overlay" href="db-time-line.html">
-                                <img src="{{asset('web/images/h-adm.jpg')}}" alt="">
-                                <span>Exam Time Line</span>
+                                <img src="{{asset('web/images/welwisher/6.jpg')}}" alt="">
+                                <span>Anayatulla Laskar</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
                             <a class="course-overlay" href="seminar.html">
-                                <img src="{{asset('web/images/h-cam1.jpg')}}" alt="">
-                                <span>Seminar 2018</span>
+                                <img src="{{asset('web/images/welwisher/7.jpg')}}" alt="">
+                                <span>Smart Dey</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
                             <a class="course-overlay" href="events.html">
-                                <img src="{{asset('web/images/h-res1.jpg')}}" alt="">
-                                <span>Research & Education</span>
+                                <img src="{{asset('web/images/welwisher/8.jpg')}}" alt="">
+                                <span>Noor A Barbhuiya</span>
                             </a>
                         </div>
                     </div>

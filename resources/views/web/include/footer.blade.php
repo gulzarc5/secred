@@ -294,3 +294,61 @@
     <script src="{{asset('web/js/bootstrap.min.js')}}"></script>
     <script src="{{asset('web/js/materialize.min.js')}}"></script>
     <script src="{{asset('web/js/custom.js')}}"></script>
+    
+    <script type="text/javascript">
+        var screenWidth = parseInt(screen.width);
+        if (screenWidth > 550) {
+
+            var data = '<center> <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsacredheartjclg%2F&tabs=timeline&tabs=timeline&width=800&amp;height=600&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>'+
+                '<div class="bb-link" style="margin-top: 20px;text-align: center">'+
+                    '<a class="bann-btn-1" style="border-color:#f26938" target="_blank" href="https://www.facebook.com/sacredheartjclg/">Vist Our Page</a>'+
+                '</div>'
+            $("#facebook-div").html(data);            
+        }else{
+            var y =parseInt(screenWidth - ((screenWidth*7)/100));
+            var data = ' <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsacredheartjclg%2F&tabs=timeline&tabs=timeline&width='+y+'&amp;height=600&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'+
+                '<div class="bb-link" style="margin-top: 20px;text-align: center">'+
+                    '<a class="bann-btn-1" style="border-color:#f26938" target="_blank" href="https://www.facebook.com/sacredheartjclg/">Vist Our Page</a>'+
+                '</div>'
+            $("#facebook-div").html(data);  
+
+        }
+    </script> 
+    <script>
+        jQuery.fn.liScroll = function(settings) {
+            settings = jQuery.extend({
+                travelocity: 0.08
+                }, settings);		
+                return this.each(function(){
+                        var $strip = jQuery(this);
+                        $strip.addClass("newsticker")
+                        var stripHeight = 0;
+                        $strip.find("li").each(function(i){
+                            stripHeight += jQuery(this, i).outerHeight(true); // thanks to Michael Haszprunar and Fabien Volpi
+                        });
+                        var $mask = $strip.wrap("<div class='mask'></div>");
+                        var $tickercontainer = $strip.parent().wrap("<div class='tickercontainer'></div>");								
+                        var containerHeight = $strip.parent().parent().height();	//a.k.a. 'mask' width 	
+                        $strip.height(stripHeight);			
+                        var totalTravel = stripHeight;
+                        var defTiming = totalTravel/settings.travelocity;	// thanks to Scott Waye		
+                        function scrollnews(spazio, tempo){
+                        $strip.animate({top: '-='+ spazio}, tempo, "linear", function(){$strip.css("top", "40%"); scrollnews(totalTravel, defTiming);});
+                        }
+                        scrollnews(totalTravel, defTiming);				
+                        $strip.hover(function(){
+                        jQuery(this).stop();
+                        },
+                        function(){
+                        var offset = jQuery(this).offset();
+                        var residualSpace = stripHeight;
+                        var residualTime = residualSpace/settings.travelocity;
+                        scrollnews(residualSpace, residualTime);
+                        });			
+                });	
+        };
+
+        $(function(){
+            $("ul#ticker01").liScroll();
+        });
+    </script>
