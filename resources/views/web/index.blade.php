@@ -86,14 +86,18 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="bot-gal h-vid ho-event-mob-bot-sp">
-                        <h4>Director Messege</h4>
-                        <p>Maecenas finibus neque a tellus auctor mattis. Aliquam tempor varius ornare. Maecenas dignissim leo leo, nec posuere purus finibus vitae Quisque vitae neque at tellus malesuada convallis. Phasellus in lectus vitae ex euismod interdum non a lorem. Nulla bibendum. Curabitur mi odio, tempus quis risus cursus. Maecenas finibus neque a tellus auctor mattis. Aliquam tempor varius ornare. Maecenas dignissim leo leo, nec posuere purus finibus vitae.</p> 
-                        <p>Maecenas finibus neque a tellus auctor mattis. Aliquam tempor varius ornare. Maecenas dignissim leo leo, nec posuere purus finibus vitae.</p>
-                    </div>
-                    <div class="bot-gal h-vid ho-event-mob-bot-sp" style="margin-top: 20px">
                         <h4>principal Messege</h4>
-                        <p>Maecenas finibus neque a tellus auctor mattis. Aliquam tempor varius ornare. Maecenas dignissim leo leo, nec posuere purus finibus vitae.</p>
-                        <p>Maecenas finibus neque a tellus auctor mattis. Aliquam tempor varius ornare. Maecenas dignissim leo leo, nec posuere purus finibus vitae. Quisque vitae neque at tellus malesuada convallis. Phasellus in lectus vitae ex euismod interdum non a lorem. Nulla bibendum. Curabitur mi odio, tempus quis risus cursus.</p>
+                        <p>Welcome to Secret Heart Junior College: a co-educational AHSEC affiliated private institute with a distinct and successful culture of students learning together, supporting and encouraging each other to do their best.</p>
+                        <p>At <strong>Sacred Heart Junior College</strong>, both academic and non academic staff work collaboratively to develop a clear, comprehensive and cohesive curriculum, to support the health and welbeing of students, and to challenge our students to reach their highest potential.</p>
+                        <p>It is a privilege for me to be a part of Secret Heart Junior College. My sincere endeavor in the college has been to instil moral values and positive attitude among the students to help them in their personality development and character-building. I assure you that <Strong>Sacred Heart Junior College</Strong> is an institute worthy of your serious attention and consideration, and i welcome your interest in our exciting college.</p>
+                        <p>I am confident that with the excellent team, we are always here to enhance and strengthen the success of <strong>Sacred Heart Junior College</strong>.</p>
+                        <p>lam looking forward to continuing this process with you.</p>                           
+                        <p>Sincerely on behalf of allof us at <strong>Sacred Heart Junior College</strong></p>
+                        <b style="float: right;">
+                            <pre >LKalimohan Singha
+M.A., B.Ed. (Retd. Principal, Indramani H.5. School)
+Principal
+                            </pre></b>  
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -228,7 +232,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="input-field col s12">
-                                            <input type="submit" value="Register" class="waves-effect waves-light light-btn">
+                                            <input type="submit" value="Submit" value="Register" class="waves-effect waves-light light-btn" style="color:black">
                                         </div>
                                     </div>
                                 </form>
