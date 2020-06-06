@@ -92,7 +92,7 @@
                         </div>
                         <div class="ed-com-t1-social">
                             <ul>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <li><a href="https://www.facebook.com/sacredheartjclg/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                 </li>
                                 <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                                 </li>

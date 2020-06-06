@@ -8,11 +8,11 @@
                             <img src="{{asset('web/images/3.png')}}" alt="">
                         </div>
                         <div class="col-md-7 bb-text">
-                            <h4>therefore always free from repetition</h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                            <h4>SECRED HEART JUNIOR COLLEGE</h4>
+                            <p>Arts Commerce English and Bengali mediun Admission for 2020 batch going on Hurry up limited seats</p>
                         </div>
                         <div class="col-md-3 bb-link">
-                            <a href="course-details.html">Book This Course</a>
+                            <a href="{{route('web.admission')}}">Click to Book Your Seat</a>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                 <p></p>
               </div>
               </div>-->
-            <div class="row wed-foot-link">
+            {{-- <div class="row wed-foot-link">
                 <div class="col-md-4 foot-tc-mar-t-o">
                     <h4>Top Courses</h4>
                     <ul>
@@ -74,27 +74,27 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> --}}
             <div class="row wed-foot-link-1">
                 <div class="col-md-4 foot-tc-mar-t-o">
                     <h4>Get In Touch</h4>
-                    <p>Address: 28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A.</p>
-                    <p>Phone: <a href="#!">+101-1231-4321</a></p>
-                    <p>Email: <a href="#!">info@educationmaster.com</a></p>
+                    <p>Address: COLLEGE ROAD, LALA, (NEAR BSNL OFFICE) HAILAKANDI, ASSAM</p>
+                    <p>Phone: <a href="#!">+91-8471840057 / +91-9085400374/ +91-9101169941</a></p>
+                    <p>Email: <a href="#!">sacredheartlala@gmail.com</a></p>
                 </div>
                 <div class="col-md-4">
-                    <h4>DOWNLOAD OUR FREE MOBILE APPS</h4>
+                    {{-- <h4>DOWNLOAD OUR FREE MOBILE APPS</h4>
                     <ul>
                         <li><a href="#"><span class="sprite sprite-android"></span></a>
                         </li>
                         <li><a href="#"><span class="sprite sprite-ios"></span></a>
                         </li>
-                    </ul>
+                    </ul> --}}
                 </div>
                 <div class="col-md-4">
                     <h4>SOCIAL MEDIA</h4>
                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <li><a href="https://www.facebook.com/sacredheartjclg/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </li>
@@ -115,7 +115,7 @@
         <div class="container">
             <div class="row">
                 <div class="copy-right">
-                    <p>Copyrights © 2018 RN53Themes. All rights reserved.</p>
+                    <p>Copyrights © 2020 SECRED HEART JUNIOR COLLEGE. All rights reserved. Developed By <b><a>Gulzar Ahmed Choudhury</a></b></p>
                 </div>
             </div>
         </div>
@@ -275,7 +275,7 @@
     </section>
 
     <!-- SOCIAL MEDIA SHARE -->
-    <section>
+    {{-- <section>
         <div class="icon-float">
             <ul>
                 <li><a href="#" class="sh">1k <br> Share</a> </li>
@@ -287,7 +287,7 @@
                 <li><a href="#" class="sh1"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> </li>
             </ul>
         </div>
-    </section>
+    </section> --}}
 
     <!--Import jQuery before materialize.js-->
     <script src="js/main.min.js"></script>

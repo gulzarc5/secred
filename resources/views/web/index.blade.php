@@ -89,7 +89,7 @@
             <div class="row">
                 <div class="con-title">
                     <h2>News and <span>Events</span></h2>
-                    <marquee><a href="#" style="color:red;font-weight:bold;">Click Here Secred Heart junior Colleg 2020 Prospectus</a></marquee>
+                    <marquee><a href="#" style="color:red;font-weight:bold;">Click Here To Check Secred Heart junior Colleg 2020 Prospectus</a></marquee>
                 </div>
             </div>
             <div class="row">
