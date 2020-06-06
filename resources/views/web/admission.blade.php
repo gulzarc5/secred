@@ -156,7 +156,7 @@
                                             </span>
                                         @enderror
                                     </label>
-                                    <textarea class="form-control" rows="6" placeholder="Enter Name and address of Previous school" name="school_address">{{old('school_address')}}</textarea>
+                                    <textarea class="form-control" rows="5" placeholder="Enter Name and address of Previous school" name="school_address">{{old('school_address')}}</textarea>
                                 </div>
                                 <div class="col-sm-6">
                                     <label class="control-label">12.b Name of Board:

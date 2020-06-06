@@ -295,6 +295,8 @@ Principal
                     </div>
                     <div class="bot-gal h-gal ho-event-mob-bot-sp" style="margin-top: 6px">
                         <h4>Facebook Page</h4>
+                        <div id="facebook-div">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -303,7 +305,7 @@ Principal
 
     <!-- DISCOVER MORE -->
     <section>
-        <div class="container com-sp pad-bot-70">
+        <div class="container com-sp pad-bot-50">
             <div class="row">
                 <div class="con-title">
                     <h2>Academic <span>Stuff</span></h2>
