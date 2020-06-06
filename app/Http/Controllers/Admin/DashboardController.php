@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use DB;
 use App\Admsn;
+use App\Query;
 
 class DashboardController extends Controller
 {
@@ -18,5 +19,11 @@ class DashboardController extends Controller
         $total_commerce =  Admsn::where('stream','Commerce')->count();
         $last_student =  Admsn::orderBy('id','desc')->limit(10)->get();
         return view('admin.dashboard',compact('total_student','total_online_pay','total_college_pay','total_arts','total_commerce','last_student'));
+    }
+
+    public function userQuery()
+    {
+        $query = Query::orderBy('id','desc')->get();
+        return view('admin.query.query_list',compact('query'));
     }
 }

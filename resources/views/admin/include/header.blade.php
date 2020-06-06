@@ -89,6 +89,7 @@
                       <li class="sub_menu"><a href="{{route('admin.user_list')}}">User List</a></li>
                     </ul>
                   </li>
+                  <li><a href="{{route('admin.students_query')}}"><i class="fa fa-question-circle" aria-hidden="true"></i>Students Query</a></li>
                   <li><a href="#"><i class="fa fa-key" aria-hidden="true"></i>Change Password</a></li>
 
                 </ul>

@@ -208,33 +208,80 @@ Principal
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="bot-gal h-gal ho-event-mob-bot-sp">
+                    <div class="bot-gal h-gal ho-event-mob-bot-sp" id="query_form">
                         <h4>Query Form</h4>
                         <div class="ho-st-login">
                             <div id="hom-vijay" class="col s12">
-                                <form class="col s12">
+                                @if (Session::has('message'))
+                                <div class="alert alert-success" >{{ Session::get('message') }}</div>
+                                <script>
+                                    elmnt = document.getElementById("query_form");
+                                    elmnt.scrollIntoView();
+                                </script>
+                                @endif
+                                @if (Session::has('error'))
+                                    <div class="alert alert-danger">{{ Session::get('error') }}</div>
+                                    <script>
+                                        elmnt = document.getElementById("query_form");
+                                        elmnt.scrollIntoView();
+                                    </script>
+                                @endif
+                                    
+                                {{ Form::open(array('route' => 'web.insert_query', 'method' => 'post')) }}
                                     <div class="row">
                                         <div class="input-field col s12">
-                                            <input type="text" class="validate">
-                                            <label>Name</label>
+                                            <input type="text" class="validate" placeholder="Enter Name" name="name">
+                                            @error('name')
+                                                <span style="color:red">
+                                                    {{ $message }}
+                                                </span>
+                                                <script>
+                                                    elmnt = document.getElementById("query_form");
+                                                    elmnt.scrollIntoView();
+                                                </script>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="input-field col s12">
-                                            <input type="text" class="validate">
-                                            <label>Email id</label>
+                                            <input type="text" class="validate" name="email" placeholder="Enter Email Id">
+                                            @error('email')
+                                                <span style="color:red">
+                                                    {{ $message }}
+                                                </span>
+                                                <script>
+                                                    elmnt = document.getElementById("query_form");
+                                                    elmnt.scrollIntoView();
+                                                </script>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="input-field col s12">
-                                            <input type="password" class="validate">
-                                            <label>Subject</label>
+                                            <input type="text" class="validate" placeholder="Enter Subject" name="subject">
+                                            @error('subject')
+                                                <span style="color:red">
+                                                    {{ $message }}
+                                                </span>
+                                                <script>
+                                                    elmnt = document.getElementById("query_form");
+                                                    elmnt.scrollIntoView();
+                                                </script>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="input-field col s12">
-                                            <textarea name=""></textarea>
-                                            <label>Messege</label>
+                                            <textarea name="message" placeholder="Enter Message"></textarea>
+                                            @error('message')
+                                                <span style="color:red">
+                                                    {{ $message }}
+                                                </span>
+                                                <script>
+                                                    elmnt = document.getElementById("query_form");
+                                                    elmnt.scrollIntoView();
+                                                </script>
+                                            @enderror
                                         </div>
                                     </div>
                                     <div class="row">
@@ -242,7 +289,7 @@ Principal
                                             <input type="submit" value="Submit" value="Register" class="waves-effect waves-light light-btn" style="color:black">
                                         </div>
                                     </div>
-                                </form>
+                                {{Form::close()}}
                             </div>
                         </div>
                     </div>
@@ -333,6 +380,7 @@ Principal
             </div>
         </div>
     </section>
+
 @endsection   
 
       

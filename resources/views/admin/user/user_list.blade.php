@@ -23,6 +23,7 @@
                                 <th>Mobile</th>
                                 <th>Payment Type</th>
                                 <th>Payment Status</th>
+                                <th>Date</th>
                                 <th>Action</th>
                             </tr>
                             </thead>
@@ -56,6 +57,7 @@
                     {data: 'mobile', name: 'mobile',searchable: true}, 
                     {data: 'payment_typess', name: 'payment_typess' ,searchable: true}, 
                     {data: 'payment_statuss', name: 'payment_statuss' ,searchable: true},
+                    {data: 'created_at', name: 'created_at' ,searchable: true},
                     {data: 'action', name: 'action' ,searchable: true}, 
                 ]
             });            
