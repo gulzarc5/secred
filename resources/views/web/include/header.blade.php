@@ -43,19 +43,19 @@
                     <div class="col-md-12">
                         <div class="ed-com-t1-left">
                             <ul>
-                                <li><a href="#">Contact: Lake Road, Suite 180 Farmington Hills, U.S.A.</a>
+                                <li><a href="#">COLLEGE ROAD, LALA, (NEAR BSNL OFFICE) HAILAKANDI, ASSAM</a>
                                 </li>
-                                <li><a href="#">Phone: +101-1231-1231</a>
+                                <li><a href="#">Mobile: +91-8471840057 / +91-9085400374 / +91-9101169941</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="ed-com-t1-right">
-                            <ul>
+                            {{-- <ul>
                                 <li><a href="#!" data-toggle="modal" data-target="#modal1">Sign In</a>
                                 </li>
                                 <li><a href="#!" data-toggle="modal" data-target="#modal2">Sign Up</a>
                                 </li>
-                            </ul>
+                            </ul> --}}
                         </div>
                         <div class="ed-com-t1-social">
                             <ul>
