@@ -89,7 +89,7 @@
             <div class="row">
                 <div class="con-title">
                     <h2>News and <span>Events</span></h2>
-                    <marquee><a href="#" style="color:red;font-weight:bold;">Click Here To Check Secred Heart junior Colleg 2020 Prospectus</a></marquee>
+                    <marquee><a href="{{asset('web/pdf/scp.pdf')}}" style="color:red;font-weight:bold;" target="_blank">Click Here To Check Secred Heart junior College 2020 Prospectus</a></marquee>
                 </div>
             </div>
             <div class="row">
@@ -118,7 +118,7 @@ Principal
                                     <div class="ho-ev-date"><span>01</span><span>Jun,2020</span>
                                     </div>
                                     <div class="ho-ev-link">
-                                        <a href="events.html">
+                                        <a href="{{asset('web/pdf/scp.pdf')}}" target="_blank">
                                             <h4>Prospectus 2020</h4>
                                         </a>
                                         <p>Sacred Heart Junior College Prospectus</p>
@@ -129,7 +129,7 @@ Principal
                                     <div class="ho-ev-date"><span>06</span><span>Jun,2020</span>
                                     </div>
                                     <div class="ho-ev-link">
-                                        <a href="events.html">
+                                        <a href="#">
                                             <h4>Online Admission Going On</h4>
                                         </a>
                                         <p>Sacred Heart Junior College 2020 Batch Arts and Commerce</p>
