@@ -115,28 +115,28 @@ Principal
                         <div class="ho-event">
                             <ul>
                                 <li>
-                                    <div class="ho-ev-date"><span>07</span><span>jan,2018</span>
+                                    <div class="ho-ev-date"><span>01</span><span>Jun,2020</span>
                                     </div>
                                     <div class="ho-ev-link">
                                         <a href="events.html">
-                                            <h4>Latinoo College Expo 2018</h4>
+                                            <h4>Prospectus 2020</h4>
                                         </a>
-                                        <p>Nulla at velit convallis, venenatis lacus quis, efficitur lectus.</p>
-                                        <span>9:15 am – 5:00 pm</span>
+                                        <p>Sacred Heart Junior College Prospectus</p>
+                                        <span>01-06-2020</span>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="ho-ev-date"><span>12</span><span>jan,2018</span>
+                                    <div class="ho-ev-date"><span>06</span><span>Jun,2020</span>
                                     </div>
                                     <div class="ho-ev-link">
                                         <a href="events.html">
-                                            <h4>Training at Team Fabio Clemente</h4>
+                                            <h4>Online Admission Going On</h4>
                                         </a>
-                                        <p>Nulla at velit convallis venenatis.</p>
-                                        <span>9:15 am – 5:00 pm</span>
+                                        <p>Sacred Heart Junior College 2020 Batch Arts and Commerce</p>
+                                        <span>06-06-2020</span>
                                     </div>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <div class="ho-ev-date"><span>26</span><span>jan,2018</span>
                                     </div>
                                     <div class="ho-ev-link">
@@ -157,7 +157,7 @@ Principal
                                         <p>Nulla at velit convallis, venenatis lacus quis, efficitur lectus.</p>
                                         <span>9:15 am – 5:00 pm</span>
                                     </div>
-                                </li>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>
