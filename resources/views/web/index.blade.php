@@ -9,6 +9,14 @@
 @endsection
 
 @section('content') 
+<style>
+    .first::first-letter 
+		{
+		    font-size: 200%;
+		    color: black;
+		    line-height:1;
+		}
+</style>
     <!-- SLIDER -->
     <section>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -57,17 +65,18 @@
                 <div class="wed-hom-ser">
                     <ul>
                         <li>
-                            <a href="awards.html" class="waves-effect waves-light btn-large wed-pop-ser-btn"><img src="{{asset('web/images/icon/h-ic1.png')}}" alt=""> Academy</a>
+                            <a href="#" class="waves-effect waves-light btn-large wed-pop-ser-btn" alt="" style="font-size: 8px;    line-height: 26px;"><img src="{{asset('web/images/icon/h-ic1.png')}}" >Bright Future</a>
                         </li>
                         <li>
-                            <a href="admission.html" class="waves-effect waves-light btn-large wed-pop-ser-btn"><img src="{{asset('web/images/icon/h-ic2.png')}}" alt=""> Admission</a>
+                            <a href="#" class="waves-effect waves-light btn-large wed-pop-ser-btn" style="font-size: 8px;     line-height: 11px;"><img src="{{asset('web/images/icon/h-ic3.png')}}" alt="">Balanced Development</a>
                         </li>
                         <li>
-                            <a href="all-courses.html" class="waves-effect waves-light btn-large wed-pop-ser-btn"><img src="{{asset('web/images/icon/h-ic4.png')}}" alt=""> Courses</a>
+                            <a href="#" class="waves-effect waves-light btn-large wed-pop-ser-btn" style="font-size: 8px;line-height: 11px;"><img src="{{asset('web/images/icon/h-ic2.png')}}" alt="" > Focused Learning</a>
                         </li>
-                        <li>
-                            <a href="seminar.html" class="waves-effect waves-light btn-large wed-pop-ser-btn"><img src="{{asset('web/images/icon/h-ic3.png')}}" alt=""> Seminar</a>
-                        </li>
+                        {{-- <li>
+                            <a href="#" class="waves-effect waves-light btn-large wed-pop-ser-btn"><img src="{{asset('web/images/icon/h-ic4.png')}}" alt=""> Courses</a>
+                        </li> --}}
+                        
                     </ul>
                 </div>
             </div>
@@ -80,14 +89,14 @@
             <div class="row">
                 <div class="con-title">
                     <h2>News and <span>Events</span></h2>
-                    <p>Fusce id sem at ligula laoreet hendrerit venenatis sed purus. Ut pellentesque maximus lacus, nec pharetra augue.</p>
+                    <marquee><a href="#" style="color:red;font-weight:bold;">Click Here Secred Heart junior Colleg 2020 Prospectus</a></marquee>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="bot-gal h-vid ho-event-mob-bot-sp">
                         <h4>principal Messege</h4>
-                        <p>Welcome to Secret Heart Junior College: a co-educational AHSEC affiliated private institute with a distinct and successful culture of students learning together, supporting and encouraging each other to do their best.</p>
+                        <p class="first">Welcome to Secret Heart Junior College: a co-educational AHSEC affiliated private institute with a distinct and successful culture of students learning together, supporting and encouraging each other to do their best.</p>
                         <p>At <strong>Sacred Heart Junior College</strong>, both academic and non academic staff work collaboratively to develop a clear, comprehensive and cohesive curriculum, to support the health and welbeing of students, and to challenge our students to reach their highest potential.</p>
                         <p>It is a privilege for me to be a part of Secret Heart Junior College. My sincere endeavor in the college has been to instil moral values and positive attitude among the students to help them in their personality development and character-building. I assure you that <Strong>Sacred Heart Junior College</Strong> is an institute worthy of your serious attention and consideration, and i welcome your interest in our exciting college.</p>
                         <p>I am confident that with the excellent team, we are always here to enhance and strengthen the success of <strong>Sacred Heart Junior College</strong>.</p>
@@ -164,38 +173,36 @@ Principal
                 <div class="col-md-6">
                     <div class="bot-gal h-vid ho-event-mob-bot-sp">
                         <h4>Welcome to Secret Heart</h4>
-                        <p>Maecenas finibus neque a tellus auctor mattis. Aliquam tempor varius ornare. Maecenas dignissim leo leo, nec posuere purus finibus vitae.</p>
-                        <p>Maecenas finibus neque a tellus auctor mattis. Aliquam tempor varius ornare. Maecenas dignissim leo leo, nec posuere purus finibus vitae.</p>
-                        <h5>Maecenas sollicitudin lacinia</h5>
-                        <p>Maecenas finibus neque a tellus auctor mattis. Aliquam tempor varius ornare. Maecenas dignissim leo leo, nec posuere purus finibus vitae.</p>
-                        <p>Quisque vitae neque at tellus malesuada convallis. Phasellus in lectus vitae ex euismod interdum non a lorem. Nulla bibendum. Curabitur mi odio, tempus quis risus cursus.</p>
+                        <p class="first"><strong>Sacred Heart Junior College</strong> is a place where we have committed ourselves to the vision of raising achievement, enhancing aspirations and enriching innovations. It is through which we create focus on students' success. This college is a result of dream of a bunch of dignified, solemn and dedicated youths of the locality, who have already established their potential in different competitive exams, specially in CTET & ATET.<a href="#" style="color:red">Read More</a></p>
+                        <h5>Distinctive Features</h5>
+                        <p class="first"><strong>Sacred Heart Junior College </strong> some unique feathers that draw the strength to the new generation to compete and stand tall in the crowd. The college likes to support the locality with best possible knowledge and education. The college is well supported bya team excellent instructors, friendly mentors and experienced retired intellectuals. <a href="#" style="color:red">Read More</a></p>
                     </div>                    
                     <div class="bot-gal h-gal ho-event-mob-bot-sp" style="margin-top: 50px">
                         <h4>Photo Gallery</h4>
                         <ul>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/8.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/001.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/9.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/01.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/10.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/1.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/11.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/2.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/1.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/3.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/2.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/4.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/3.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/5.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/4.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/6.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/5.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/7.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/6.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/8.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/7.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/9.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/ami/8.jpg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/12.jpeg')}}" alt="">
                             </li>
                         </ul>
                     </div>
