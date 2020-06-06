@@ -25,25 +25,25 @@
                 <div class="item slider1 active">
                     <img src="{{asset('web/images/slider/1.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
-                        <h2>Welcome to <span>SACRED HEART JUNIOR COLLEGE</span></h2>
-                        {{-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p> --}}
-                        For Admission <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
+                        <h2>ADMISSION OPEN<span> 2020</span></h2>
+                        <p>Arts Commerce English and Bengali mediun Admission for 2020 batch going on Hurry up limited seats</p>
+                        <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
                     </div>
                 </div>
                 <div class="item">
                     <img src="{{asset('web/images/slider/2.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
-                        <h2>Admission open <span>2018</span></h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                        <a href="#" class="bann-btn-1">Admission</a><a href="#" class="bann-btn-2">Read More</a>
+                        <h2>ADMISSION OPEN<span> 2020</span></h2>
+                        <p>Arts Commerce English and Bengali mediun Admission for 2020 batch going on Hurry up limited seats</p>
+                        <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
                     </div>
                 </div>
                 <div class="item">
                     <img src="{{asset('web/images/slider/3.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
-                        <h2>Education <span>Master</span></h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                        <a href="#" class="bann-btn-1">All Courses</a><a href="#" class="bann-btn-2">Read More</a>
+                        <h2>ADMISSION OPEN<span> 2020</span></h2>
+                        <p>Arts Commerce English and Bengali mediun Admission for 2020 batch going on Hurry up limited seats</p>
+                        <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
                     </div>
                 </div>
             </div>
