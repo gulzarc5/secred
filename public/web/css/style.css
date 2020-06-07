@@ -77,7 +77,7 @@ p, li, a, span, table, tr, td, th, label{
     line-height: 24px;
 }
 .com-sp{
-    padding:100px 0px;
+    padding: 17px 0px;
 }
 .pad-top-0{
     padding-top:0px;
@@ -101,6 +101,12 @@ p, li, a, span, table, tr, td, th, label{
 .con-title h2 span{
     font-size: 36px;
     font-weight:700;
+    color: #f26838;
+    line-height: 40px;
+}
+.con-title h4 span {
+    font-size: 19px;
+    font-weight: 700;
     color: #f26838;
     line-height: 40px;
 }

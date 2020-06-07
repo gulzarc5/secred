@@ -80,8 +80,8 @@
         <div class="container com-sp pad-bot-0">
             <div class="row">
                 <div class="con-title">
-                    <h2>News and <span>Events</span></h2>
-                    <marquee><a href="{{asset('web/pdf/scp.pdf')}}" style="color:red;font-weight:bold;" target="_blank">Click Here To Check Secred Heart junior College 2020 Prospectus</a></marquee>
+                    <h4>News and <span>Events</span></h4>
+                    <marquee><a href="{{asset('web/pdf/scp.pdf')}}" style="color:red;font-weight:bold;" target="_blank">Click Here To Check Secred Heart junior College 2020 Prospectus</a> &emsp; || &emsp; <a href="{{route('web.admission')}}" style="color:red;font-weight:bold;" >Online Admission Going On Click Here For Online Admission</a> </marquee>
                 </div>
             </div>
             <div class="row">
@@ -123,7 +123,7 @@
                                     <div class="ho-ev-date"><span>06</span><span>Jun,2020</span>
                                     </div>
                                     <div class="ho-ev-link">
-                                        <a href="#">
+                                        <a href="{{route('web.admission')}}">
                                             <h4>Online Admission Going On</h4>
                                         </a>
                                         <p>Sacred Heart Junior College 2020 Batch Arts and Commerce</p>
@@ -318,6 +318,14 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
+                            <a class="course-overlay" href="db-time-line.html">
+                                <img src="{{asset('web/images/welwisher/6.jpg')}}" alt="">
+                                <span>Anayatulla Laskar</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
                             <a class="course-overlay" href="admission.html">
                                 <img src="{{asset('web/images/welwisher/2.jpg')}}" alt="">
                                 <span>Monoj Singha</span>
@@ -345,14 +353,6 @@
                             <a class="course-overlay" href="all-courses.html">
                                 <img src="{{asset('web/images/welwisher/5.jpg')}}" alt="">
                                 <span>Sahid Iqbal</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="ed-course-in">
-                            <a class="course-overlay" href="db-time-line.html">
-                                <img src="{{asset('web/images/welwisher/6.jpg')}}" alt="">
-                                <span>Anayatulla Laskar</span>
                             </a>
                         </div>
                     </div>
