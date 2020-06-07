@@ -77,7 +77,7 @@
 
     <!-- NEWS AND EVENTS -->
     <section>
-        <div class="container com-sp pad-bot-0">
+        <div class="container pad-bot-0" style="padding:17px;0px;">
             <div class="row">
                 <div class="con-title">
                     <h4>News and <span>Events</span></h4>
