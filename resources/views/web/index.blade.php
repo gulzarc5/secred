@@ -26,7 +26,7 @@
                     <img src="{{asset('web/images/slider/1.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
                         <h2>ADMISSION OPEN<span> 2020</span></h2>
-                        <p><b style="color: #ea6111;">Arts</b> / <b>Commerce</b> - <b>English </b>and <b>Bengali</b> mediun <b>Admission</b> for 2020 batch going on Hurry up limited seats</p>
+                        <p><b style="color: #ea6111;">Arts</b> / <b>Commerce</b> - <b>English </b>and <b>Bengali</b> mediun <b>Admission</b> for 2020 batch going on <b style="color: #ea6111;font-size: 17px;">Hurry up </b></p>
                         <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
             <div class="row">
                 <div class="con-title">
                     <h4>News and <span>Events</span></h4>
-                    <marquee><a href="{{asset('web/pdf/scp.pdf')}}" style="color:red;font-weight:bold;" target="_blank">Click Here To Check Secred Heart junior College 2020 Prospectus</a> &emsp; || &emsp; <a href="{{route('web.admission')}}" style="color:red;font-weight:bold;" >Online Admission Going On Click Here For Online Admission</a> </marquee>
+                    <marquee><a href="{{route('web.admission')}}" style="color:red;font-weight:bold;" >Click Here For Online Admission</a> &emsp; || &emsp; <a href="{{asset('web/pdf/scp.pdf')}}" style="color:red;font-weight:bold;" target="_blank">Click Here To Check Secred Heart junior College 2020 Prospectus</a> </marquee>
                 </div>
             </div>
             <div class="row">
@@ -336,7 +336,7 @@
                         <div class="ed-course-in">
                             <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/3.jpg')}}" alt="">
-                                <span>Parthapeatim Chakrabarty</span>
+                                <span>Parthapratim Chakrabarty</span>
                             </a>
                         </div>
                     </div>
@@ -360,7 +360,7 @@
                         <div class="ed-course-in">
                             <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/7.jpg')}}" alt="">
-                                <span>Smart Dey</span>
+                                <span>Samrat Dey</span>
                             </a>
                         </div>
                     </div>
