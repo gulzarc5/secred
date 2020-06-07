@@ -115,7 +115,7 @@
         <div class="container">
             <div class="row">
                 <div class="copy-right">
-                    <p>Copyrights © 2020 SECRED HEART JUNIOR COLLEGE. All rights reserved. Developed By <b><a href="https://www.facebook.com/gulzarc5">Gulzar Ahmed Choudhury</a></b></p>
+                    <p>Copyrights © 2020 SECRED HEART JUNIOR COLLEGE. All rights reserved. Developed By <b><a href="https://www.facebook.com/gulzarc5" target="_blank">Gulzar Ahmed Choudhury</a></b></p>
                 </div>
             </div>
         </div>
