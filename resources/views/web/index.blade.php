@@ -174,29 +174,29 @@
                     <div class="bot-gal h-gal ho-event-mob-bot-sp" style="margin-top: 50px">
                         <h4>Photo Gallery</h4>
                         <ul>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/001.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/001.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/01.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/01.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/1.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/1.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/2.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/2.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/3.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/3.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/4.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/4.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/5.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/5.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/6.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/6.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/7.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/7.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/8.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/8.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/9.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/9.jpeg')}}" alt="">
                             </li>
-                            <li><img class="materialboxed" data-caption="Education master image captions" src="{{asset('web/images/galary/12.jpeg')}}" alt="">
+                            <li><img class="materialboxed" data-caption="" src="{{asset('web/images/galary/12.jpeg')}}" alt="">
                             </li>
                         </ul>
                     </div>
