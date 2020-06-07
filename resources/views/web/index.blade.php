@@ -26,7 +26,7 @@
                     <img src="{{asset('web/images/slider/1.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
                         <h2>ADMISSION OPEN<span> 2020</span></h2>
-                        <p>Arts Commerce English and Bengali mediun Admission for 2020 batch going on Hurry up limited seats</p>
+                        <p><b style="color: #ea6111;">Arts</b> / <b>Commerce</b> - <b>English </b>and <b>Bengali</b> mediun <b>Admission</b> for 2020 batch going on Hurry up limited seats</p>
                         <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     <img src="{{asset('web/images/slider/2.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
                         <h2>ADMISSION OPEN<span> 2020</span></h2>
-                        <p>Arts Commerce English and Bengali mediun Admission for 2020 batch going on Hurry up limited seats</p>
+                        <p><b style="color: #ea6111;">Arts</b> / <b>Commerce</b> - <b>English </b>and <b>Bengali</b> mediun <b>Admission</b> for 2020 batch going on Hurry up limited seats</p>
                         <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
                     </div>
                 </div>
@@ -309,7 +309,7 @@
                 <div class="ed-course">
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="about.html">
+                            <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/1.jpg')}}" alt="">
                                 <span>Zahid Islam Barbhuiya</span>
                                 <span></span>
@@ -318,7 +318,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="db-time-line.html">
+                            <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/6.jpg')}}" alt="">
                                 <span>Anayatulla Laskar</span>
                             </a>
@@ -326,7 +326,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="admission.html">
+                            <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/2.jpg')}}" alt="">
                                 <span>Monoj Singha</span>
                             </a>
@@ -334,7 +334,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="dashboard.html">
+                            <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/3.jpg')}}" alt="">
                                 <span>Parthapeatim Chakrabarty</span>
                             </a>
@@ -342,7 +342,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="research.html">
+                            <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/4.jpg')}}" alt="">
                                 <span>Soruj Nath</span>
                             </a>
@@ -350,7 +350,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="all-courses.html">
+                            <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/5.jpg')}}" alt="">
                                 <span>Sahid Iqbal</span>
                             </a>
@@ -358,7 +358,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="seminar.html">
+                            <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/7.jpg')}}" alt="">
                                 <span>Smart Dey</span>
                             </a>
@@ -366,7 +366,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="events.html">
+                            <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/8.jpg')}}" alt="">
                                 <span>Noor A Barbhuiya</span>
                             </a>
