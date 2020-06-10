@@ -5440,7 +5440,7 @@ html {
      background-repeat: repeat-x;
 }
  .carousel-control.right {
-     right: 0;
+     right: 31px;
      left: auto;
      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
      background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);

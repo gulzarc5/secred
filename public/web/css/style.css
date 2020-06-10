@@ -1222,7 +1222,7 @@ p, li, a, span, table, tr, td, th, label{
 .ho-event ul{
 }
 .ho-event ul li{
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #f26838;
     padding: 15px 0px;
     position: relative;
     overflow: hidden;
@@ -4058,7 +4058,7 @@ left: 0;
     padding: 6px 10px;
    /* padding-left: 15px;
     */
-    border: 1px solid #eae8e8;
+    border: 1px solid #aaaa;
     margin-bottom: 10px;
     font-size: 14px;
     box-sizing: border-box;
@@ -4066,7 +4066,7 @@ left: 0;
 .footer-part-form ul li textarea {
     width: 97.5%;
     padding: 6px;
-    border: 1px solid #eae8e8;
+    border: 1px solid #aaaa;
     resize: none;
     height: 90px;
 }

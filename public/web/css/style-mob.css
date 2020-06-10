@@ -490,6 +490,10 @@
      .mobile-logo{
          width:150px !important;
      }
+     .container .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
      .wed-hom-ser ul li a {
          width: 62px;
          height: 62px;

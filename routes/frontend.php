@@ -29,3 +29,21 @@ Route::get('/Admission', function () {
 Route::get('/Academics', function () {
     return view('web.academics');
 })->name('web.academics');
+
+//=========== News ============// 
+
+Route::get('/News', function () {
+    return view('web.news');
+})->name('web.news');
+
+//=========== Academics Stuff ============// 
+
+Route::get('/Academics-Stuff', function () {
+    return view('web.stuf');
+})->name('web.stuf');
+
+//=========== Contact ============// 
+
+Route::get('/Contact', function () {
+    return view('web.contact');
+})->name('web.contact');
