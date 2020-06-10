@@ -21,86 +21,31 @@
                             <div class="ho-event pg-eve-main">
                                 <ul>
                                     <li>
-                                        <div class="ho-ev-date pg-eve-date"><span>07</span><span>jan,2018</span>
+                                        <div class="ho-ev-date pg-eve-date"><span>01</span><span>JUN,2020</span>
                                         </div>
                                         <div class="ho-ev-link pg-eve-desc">
-                                            <a href="event-register.html">
-                                                <h4>Latinoo College Expo 2018 - DONATION</h4>
+                                            <a href="{{asset('web/pdf/scp.pdf')}}">
+                                                <h4>Prospectus 2020</h4>
                                             </a>
-                                            <p>Nulla at velit convallis, venenatis lacus quis, efficitur lectus.</p>
-                                            <span>9:15 am – 5:00 pm</span>
+                                            <p>Sacred Heart Junior College Prospectus</p>
+                                            <span>01-06-2020</span>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="ho-ev-date pg-eve-date"><span>12</span><span>feb,2018</span>
+                                        <div class="ho-ev-date pg-eve-date"><span>06</span><span>JUN,2020</span>
                                         </div>
                                         <div class="ho-ev-link pg-eve-desc">
-                                            <a href="event-register.html">
-                                                <h4>Training at Team Fabio Clemente</h4>
+                                            <a href="{{route('web.admission')}}">
+                                                <h4>Online Admission Going On</h4>
                                             </a>
-                                            <p>Nulla at velit convallis, venenatis lacus quis, efficitur lectus.</p>
-                                            <span>9:15 am – 5:00 pm</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ho-ev-date pg-eve-date"><span>26</span><span>apr,2018</span>
-                                        </div>
-                                        <div class="ho-ev-link pg-eve-desc">
-                                            <a href="event-register.html">
-                                                <h4>Weekly Breakdance Practice</h4>
-                                            </a>
-                                            <p>Nulla at velit convallis, venenatis lacus quis, efficitur lectus.</p>
-                                            <span>9:15 am – 5:00 pm</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ho-ev-date pg-eve-date"><span>18</span><span>sep,2018</span>
-                                        </div>
-                                        <div class="ho-ev-link pg-eve-desc">
-                                            <a href="event-register.html">
-                                                <h4>Admissions Information Session and Tour</h4>
-                                            </a>
-                                            <p>Nulla at velit convallis, venenatis lacus quis, efficitur lectus.</p>
-                                            <span>9:15 am – 5:00 pm</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ho-ev-date pg-eve-date"><span>07</span><span>nov,2018</span>
-                                        </div>
-                                        <div class="ho-ev-link pg-eve-desc">
-                                            <a href="event-register.html">
-                                                <h4>CUNY Assessment Test Workshop</h4>
-                                            </a>
-                                            <p>Nulla at velit convallis, venenatis lacus quis, efficitur lectus.</p>
-                                            <span>9:15 am – 5:00 pm</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ho-ev-date pg-eve-date"><span>18</span><span>sep,2018</span>
-                                        </div>
-                                        <div class="ho-ev-link pg-eve-desc">
-                                            <a href="event-register.html">
-                                                <h4>Fire &amp; ice launch party</h4>
-                                            </a>
-                                            <p>Nulla at velit convallis, venenatis lacus quis, efficitur lectus.</p>
-                                            <span>9:15 am – 5:00 pm</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="ho-ev-date pg-eve-date"><span>07</span><span>nov,2018</span>
-                                        </div>
-                                        <div class="ho-ev-link pg-eve-desc">
-                                            <a href="event-register.html">
-                                                <h4>Educate to Empower NYE Party</h4>
-                                            </a>
-                                            <p>Nulla at velit convallis, venenatis lacus quis, efficitur lectus.</p>
-                                            <span>9:15 am – 5:00 pm</span>
+                                            <p>Sacred Heart Junior College 2020 Batch Arts and Commerce</p>
+                                            <span>06-06-2020</span>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="pg-pagina">
+                        {{-- <div class="pg-pagina">
                             <ul class="pagination">
                                 <li class="disabled"><a href="#!"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
                                 <li class="active"><a href="#!">1</a></li>
@@ -111,7 +56,7 @@
                                 <li class="waves-effect"><a href="#!"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
                             </ul>
 
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
