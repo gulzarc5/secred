@@ -80,9 +80,9 @@
                                 <li class="admi-menu"><a href="#" class="mm-arr">Academics Stuff</a></li>
                                 <li><a href="{{route('web.admission')}}">Admission</a></li>
                                 <li><a href="{{route('web.academics')}}">Academics</a></li>
-                                <li><a href="#">Notice</a></li>
+                                <li><a href="{{route('web.news')}}">Notice</a></li>
                                 <li><a href="#">Result</a></li>
-                                <li><a href="#">Contact us</a></li>
+                                <li><a href="{{route('web.contact')}}">Contact us</a></li>
                             </ul>
                         </div>
                     </div>

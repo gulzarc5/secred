@@ -38,6 +38,14 @@
                         <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
                     </div>
                 </div>
+                <div class="item">
+                    <img src="{{asset('web/images/slider/3.jpg')}}" alt="">
+                    <div class="carousel-caption slider-con">
+                        <h2>ADMISSION OPEN<span> 2020</span></h2>
+                        <p><b style="color: #ea6111;">Arts</b> / <b>Commerce</b> - <b>English </b>and <b>Bengali</b> mediun <b>Admission</b> for 2020 batch going on Hurry up limited seats</p>
+                        <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
+                    </div>
+                </div>
             </div>
 
             <!-- Left and right controls -->
@@ -312,7 +320,6 @@
                             <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/1.jpg')}}" alt="">
                                 <span>Zahid Islam Barbhuiya</span>
-                                <span></span>
                             </a>
                         </div>
                     </div>
@@ -369,6 +376,94 @@
                             <a class="course-overlay" href="#">
                                 <img src="{{asset('web/images/welwisher/8.jpg')}}" alt="">
                                 <span>Noor A Barbhuiya</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/9.jpg')}}" alt="">
+                                <span>Joydip Nath</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/10.jpg')}}" alt="">
+                                <span>Baharul Islam Laskar</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/11.jpg')}}" alt="">
+                                <span>Samim Ahmed Laskar</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/12.jpg')}}" alt="">
+                                <span>Baharul Islam Laskar</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/13.jpg')}}" alt="">
+                                <span>Irean Shnen</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/14.jpg')}}" alt="">
+                                <span>Hanif M Choudhary</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/15.jpg')}}" alt="">
+                                <span>Nasir Ahmed Laskar</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/16.jpg')}}" alt="">
+                                <span>Ikbal H Barbhuiya</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/17.jpg')}}" alt="">
+                                <span>Abul Kashim Laskar</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/18.jpg')}}" alt="">
+                                <span>Ruhul Muhammad</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/19.jpg')}}" alt="">
+                                <span>Zafar Iqbal Laskar</span>
                             </a>
                         </div>
                     </div>
