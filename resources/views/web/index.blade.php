@@ -467,6 +467,14 @@
                             </a>
                         </div>
                     </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="ed-course-in">
+                            <a class="course-overlay" href="#">
+                                <img src="{{asset('web/images/welwisher/20.jpg')}}" alt="">
+                                <span>Fakhrul Islam Laskar</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
