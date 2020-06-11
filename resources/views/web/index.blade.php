@@ -22,15 +22,15 @@
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
-                <div class="item slider1 active">
+                {{-- <div class="item slider1 active">
                     <img src="{{asset('web/images/slider/1.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
                         <h2>ADMISSION OPEN<span> 2020</span></h2>
                         <p><b style="color: #ea6111;">Arts</b> / <b>Commerce</b> - <b>English </b>and <b>Bengali</b> mediun <b>Admission</b> for 2020 batch going on <b style="color: #ea6111;font-size: 17px;">Hurry up </b></p>
                         <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
                     </div>
-                </div>
-                <div class="item">
+                </div> --}}
+                <div class="item slider1 active">
                     <img src="{{asset('web/images/slider/2.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
                         <h2>ADMISSION OPEN<span> 2020</span></h2>

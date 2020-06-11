@@ -255,17 +255,17 @@
                                 <div class="col-sm-2">
                                     <h5>
                                         <strong>
-                                            <input type="radio" name="payment_type" class="othrcheck" value="1" > &nbsp; &nbsp;&nbsp;Pay At College.
+                                            <input type="radio" name="payment_type" class="othrcheck" value="1" checked> &nbsp; &nbsp;&nbsp;Free Admission.
                                         </strong>
                                     </h5>
                                 </div>
-                                <div class="col-sm-2">
+                                {{-- <div class="col-sm-2">
                                     <h5>
                                         <strong>
                                             <input type="radio" name="payment_type" class="othrcheck" value="2" checked> &nbsp; &nbsp;&nbsp;Pay Online.
                                         </strong>
                                     </h5>
-                                </div>
+                                </div> --}}
                             </div>
                             <style>input.othrcheck[type="checkbox"] {position: absolute;left: 0;opacity: 1;} input.othrcheck[type="radio"] {position: absolute;opacity: 1;left: 0;top: -14px;}  </style>
                             <div class="form-group mar-bot-0">
