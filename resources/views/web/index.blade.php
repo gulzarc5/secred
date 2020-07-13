@@ -306,8 +306,8 @@
     </section>
 
     <!-- DISCOVER MORE -->
-    <section>
-        <div class="container com-sp pad-bot-50">
+    <section class="c-all h-quote">
+        <div class="container pad-bot-50">
             <div class="row">
                 <div class="con-title">
                     <h2>Well <span>Wisher</span></h2>
@@ -317,7 +317,7 @@
                 <div class="ed-course">
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/1.jpg')}}" alt="">
                                 <span>Zahid Islam Barbhuiya</span>
                             </a>
@@ -325,7 +325,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/6.jpg')}}" alt="">
                                 <span>Anayatulla Laskar</span>
                             </a>
@@ -333,7 +333,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/2.jpg')}}" alt="">
                                 <span>Monoj Singha</span>
                             </a>
@@ -341,7 +341,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/3.jpg')}}" alt="">
                                 <span>Parthapratim Chakrabarty</span>
                             </a>
@@ -349,7 +349,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/4.jpg')}}" alt="">
                                 <span>Soruj Nath</span>
                             </a>
@@ -357,7 +357,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/5.jpg')}}" alt="">
                                 <span>Sahid Iqbal</span>
                             </a>
@@ -365,7 +365,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/7.jpg')}}" alt="">
                                 <span>Samrat Dey</span>
                             </a>
@@ -373,7 +373,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/8.jpg')}}" alt="">
                                 <span>Noor A Barbhuiya</span>
                             </a>
@@ -381,7 +381,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/9.jpg')}}" alt="">
                                 <span>Joydip Nath</span>
                             </a>
@@ -389,7 +389,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/10.jpg')}}" alt="">
                                 <span>Baharul Islam Laskar</span>
                             </a>
@@ -397,7 +397,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/11.jpg')}}" alt="">
                                 <span>Samim Ahmed Laskar</span>
                             </a>
@@ -405,7 +405,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/12.jpg')}}" alt="">
                                 <span>Baharul Islam Laskar</span>
                             </a>
@@ -413,7 +413,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/13.jpg')}}" alt="">
                                 <span>Irean Shnen</span>
                             </a>
@@ -421,7 +421,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/14.jpg')}}" alt="">
                                 <span>Hanif M Choudhary</span>
                             </a>
@@ -429,7 +429,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/15.jpg')}}" alt="">
                                 <span>Nasir Ahmed Laskar</span>
                             </a>
@@ -437,7 +437,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/16.jpg')}}" alt="">
                                 <span>Ikbal H Barbhuiya</span>
                             </a>
@@ -445,7 +445,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/17.jpg')}}" alt="">
                                 <span>Abul Kashim Laskar</span>
                             </a>
@@ -453,7 +453,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/18.jpg')}}" alt="">
                                 <span>Ruhul Muhammad</span>
                             </a>
@@ -461,7 +461,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/19.jpg')}}" alt="">
                                 <span>Zafar Iqbal Laskar</span>
                             </a>
@@ -469,7 +469,7 @@
                     </div>
                     <div class="col-md-3 col-sm-4 col-xs-12">
                         <div class="ed-course-in">
-                            <a class="course-overlay" href="#">
+                            <a class="course-overlay">
                                 <img src="{{asset('web/images/welwisher/20.jpg')}}" alt="">
                                 <span>Fakhrul Islam Laskar</span>
                             </a>

@@ -300,14 +300,14 @@
         if (screenWidth > 550) {
 
             var data = '<center> <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsacredheartjclg%2F&tabs=timeline&tabs=timeline&width=800&amp;height=600&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>'+
-                '<div class="bb-link" style="margin-top: 20px;text-align: center">'+
+                '<div class="bb-link" style="margin: 10px 0;text-align: center">'+
                     '<a class="bann-btn-1" style="border-color:#f26938" target="_blank" href="https://www.facebook.com/sacredheartjclg/">Vist Our Page</a>'+
                 '</div>'
             $("#facebook-div").html(data);            
         }else{
             var y =parseInt(screenWidth - ((screenWidth*7)/100));
             var data = ' <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsacredheartjclg%2F&tabs=timeline&tabs=timeline&width='+y+'&amp;height=600&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'+
-                '<div class="bb-link" style="margin-top: 20px;text-align: center">'+
+                '<div class="bb-link" style="margin: 10px 0;text-align: center">'+
                     '<a class="bann-btn-1" style="border-color:#f26938" target="_blank" href="https://www.facebook.com/sacredheartjclg/">Vist Our Page</a>'+
                 '</div>'
             $("#facebook-div").html(data);  

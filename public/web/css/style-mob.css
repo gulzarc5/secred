@@ -301,6 +301,9 @@
 /* When the browser is between 0px and 767 wide,below css will be applied.
 /*-------------------------------------------------------*/
  @media screen and (max-width:767px){
+    .h-quote {
+        padding-top: 70px;
+    }
      .mob-hide{
          display:none;
     }

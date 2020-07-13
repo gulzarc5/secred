@@ -1849,6 +1849,18 @@ p, li, a, span, table, tr, td, th, label{
     width: 90%;
     margin: auto;
 }
+.stuf .ed-course-in {
+    padding-bottom: 30px;
+}
+.stuf .ed-course-in span b {
+    color: #333;
+}
+.stuf .ed-course-in span {
+    text-transform: capitalize;
+}
+.stuf .ed-course-in img {
+    filter: grayscale(100%);
+}
 .ed-course-in a.course-overlay img {
     -webkit-transform: scale(1);
     transform: scale(1);
