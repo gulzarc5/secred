@@ -11,10 +11,10 @@ class PagesController extends Controller
     public function insertQuery(Request $request)
     {
         $this->validate($request, [
-            'name'   => 'required',
-            'email' => 'required',
-            'subject' => 'required',
-            'message' => 'required',
+            'name'   => 'required|string|max:250',
+            'email' => 'required|email|string|max:250',
+            'subject' => 'required|string|max:250',
+            'message' => 'required|string|max:900',
         ]);
         Query::create([
             'name'   => $request->input('name'),

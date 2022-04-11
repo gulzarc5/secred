@@ -9,10 +9,10 @@
                         </div>
                         <div class="col-md-7 bb-text">
                             <h4>SECRED HEART JUNIOR COLLEGE</h4>
-                            <p>Arts Commerce English and Bengali mediun Admission for 2020 batch going on Hurry up limited seats</p>
+                            <p>SUPER TEST REGISTRATION For Class 10th to 11th Moving Students (Arts & Commerce) going on Hurry up limited seats</p>
                         </div>
                         <div class="col-md-3 bb-link">
-                            <a href="{{route('web.admission')}}">Click to Book Your Seat</a>
+                            <a href="{{route('web.super.test')}}">Click to Book Your Seat</a>
                         </div>
                     </div>
                 </div>

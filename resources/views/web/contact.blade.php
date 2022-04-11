@@ -52,7 +52,7 @@
                         <p>Send Us Now</p>
                         <h2>GetIn Touch</h2> <span class="footer-ser-re">Service Request Form</span> </div>
                     <!-- ENQUIRY FORM -->
-                    <form id="contact_form" name="contact_form" action="send.php">
+                    <form id="contact_form" name="contact_form" action="#">
                         <ul>
                             <li class="col-md-6 col-sm-6 col-xs-12 contact-input-spac">
                                 <input type="text" id="f1" value="" name="f1" placeholder="Name" required=""> </li>

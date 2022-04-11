@@ -2,7 +2,7 @@
 
 {{-- META --}}
 @section('meta')
-	<title>Parakiaki Academy</title>
+	<title>Sacred Heart</title>
 	<!--<meta name="description" content="">-->
 	<!--<meta name="author" content="">-->
 	<!--<meta name="keywords" content="">-->
@@ -22,28 +22,28 @@
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
-                {{-- <div class="item slider1 active">
-                    <img src="{{asset('web/images/slider/1.jpg')}}" alt="">
-                    <div class="carousel-caption slider-con">
+                <div class="item slider1 active">
+                    <img src="{{asset('web/images/slider/4.jpg')}}" alt="">
+                    {{-- <div class="carousel-caption slider-con">
                         <h2>ADMISSION OPEN<span> 2020</span></h2>
                         <p><b style="color: #ea6111;">Arts</b> / <b>Commerce</b> - <b>English </b>and <b>Bengali</b> mediun <b>Admission</b> for 2020 batch going on <b style="color: #ea6111;font-size: 17px;">Hurry up </b></p>
                         <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
-                    </div>
-                </div> --}}
-                <div class="item slider1 active">
+                    </div> --}}
+                </div>
+                <div class="item slider1 ">
                     <img src="{{asset('web/images/slider/2.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
-                        <h2>ADMISSION OPEN<span> 2020</span></h2>
-                        <p><b style="color: #ea6111;">Arts</b> / <b>Commerce</b> - <b>English </b>and <b>Bengali</b> mediun <b>Admission</b> for 2020 batch going on Hurry up limited seats</p>
-                        <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
+                        <h2>SUPER TEST REGISTRATION OPEN<span> 2022</span></h2>
+                        <p>For Class 10th to 11th Moving Students (Arts & Commerce)</p>
+                        <a href="#" class="bann-btn-2">For Registration</a> <a href="{{route('web.super.test')}}" class="bann-btn-1">Click Here</a>
                     </div>
                 </div>
                 <div class="item">
                     <img src="{{asset('web/images/slider/3.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
-                        <h2>ADMISSION OPEN<span> 2020</span></h2>
-                        <p><b style="color: #ea6111;">Arts</b> / <b>Commerce</b> - <b>English </b>and <b>Bengali</b> mediun <b>Admission</b> for 2020 batch going on Hurry up limited seats</p>
-                        <a href="#" class="bann-btn-2">For Admission</a> <a href="{{route('web.admission')}}" class="bann-btn-1">Click Here</a>
+                        <h2>SUPER TEST REGISTRATION OPEN<span> 2022</span></h2>
+                        <p>For Class 10th to 11th Moving Students (Arts & Commerce)</p>
+                        <a href="#" class="bann-btn-2">For Registration</a> <a href="{{route('web.super.test')}}" class="bann-btn-1">Click Here</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,10 @@
             <div class="row">
                 <div class="con-title">
                     <h4>News and <span>Events</span></h4>
-                    <marquee><a href="{{route('web.admission')}}" style="color:red;font-weight:bold;" >Click Here For Online Admission</a> &emsp; || &emsp; <a href="{{asset('web/pdf/scp.pdf')}}" style="color:red;font-weight:bold;" target="_blank">Click Here To Check Secred Heart junior College 2020 Prospectus</a> </marquee>
+                    <marquee>
+                        <a href="{{route('web.super.test')}}" style="color:red;font-weight:bold;" >Click Here Super Test Registration For Class 10th to 11th Moving Students (Arts & Commerce)</a> &emsp; || &emsp; 
+                        {{-- <a href="{{asset('web/pdf/scp.pdf')}}" style="color:red;font-weight:bold;" target="_blank">Click Here To Check Secred Heart junior College 2020 Prospectus</a>  --}}
+                    </marquee>
                 </div>
             </div>
             <div class="row">
@@ -117,17 +120,17 @@
                         <div class="ho-event holder">
                             <ul id="ticker01">
                                 <li>
-                                    <div class="ho-ev-date"><span>01</span><span>Jun,2020</span>
+                                    <div class="ho-ev-date"><span>11</span><span>APR,2022</span>
                                     </div>
                                     <div class="ho-ev-link">
-                                        <a href="{{asset('web/pdf/scp.pdf')}}" target="_blank">
-                                            <h4>Prospectus 2020</h4>
+                                        <a href="{{route('web.super.test')}}" target="_blank">
+                                            <h4>Click Here For Super Test Registration</h4>
                                         </a>
-                                        <p>Sacred Heart Junior College Prospectus</p>
-                                        <span>01-06-2020</span>
+                                        <p>Sacred Super Test' is a highly ambitious and innovative educational program under the banner of "Sacred Heart Senior Secondary School". The main objective of SST is to track the talented bunch of students and hone their skills by providing a conducive environment. SST is considered as an entrance exam for Sacred Heart Senior Secondary School.</p>
+                                        <span>11-04-2022</span>
                                     </div>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <div class="ho-ev-date"><span>06</span><span>Jun,2020</span>
                                     </div>
                                     <div class="ho-ev-link">
@@ -137,7 +140,7 @@
                                         <p>Sacred Heart Junior College 2020 Batch Arts and Commerce</p>
                                         <span>06-06-2020</span>
                                     </div>
-                                </li>
+                                </li> --}}
                                 {{-- <li>
                                     <div class="ho-ev-date"><span>26</span><span>jan,2018</span>
                                     </div>

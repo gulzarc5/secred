@@ -72,7 +72,7 @@
 
                 <div>
                   <h1>
-                    <img src="{{ asset('web/images/logo.png')}}" height="150">
+                    <img src="{{ asset('web/images/logo.png')}}" height="90">
                   </h1>
                   <p>©2016 All Rights Reserved. SECRED HEART . Privacy and Terms</p>
                 </div>

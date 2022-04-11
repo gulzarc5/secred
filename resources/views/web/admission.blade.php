@@ -28,7 +28,7 @@
                         <div class="alert alert-danger">{{ Session::get('error') }}</div>
                      @endif
                         
-                        {{ Form::open(array('route' => 'web.admsn_submit', 'method' => 'post')) }}
+                        {{ Form::open(array('url' => '#', 'method' => 'post')) }}
                             <div class="form-group col-sm-12">
                                 <div class="col-sm-6">
                                     <label class="control-label">1. Name of candidate:
@@ -270,7 +270,7 @@
                             <style>input.othrcheck[type="checkbox"] {position: absolute;left: 0;opacity: 1;} input.othrcheck[type="radio"] {position: absolute;opacity: 1;left: 0;top: -14px;}  </style>
                             <div class="form-group mar-bot-0">
                                 <div class="col-sm-offset-3 col-sm-6">
-                                    <i class="waves-effect waves-light light-btn waves-input-wrapper" style=""><input type="submit" value="APPLY NOW" class="waves-button-input"></i>
+                                    {{-- <i class="waves-effect waves-light light-btn waves-input-wrapper" style=""><input type="submit" value="APPLY NOW" class="waves-button-input"></i> --}}
                                 </div>
                             </div>
                             <div class="form-group"><div class="col-sm-12"><hr style="border-color: #f36b3b"></div></div>

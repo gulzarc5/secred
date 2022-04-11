@@ -20,7 +20,7 @@
                                 <li><a href="{{route('web.index')}}">Home</a></li>
                                 <li><a href="{{route('web.about')}}">About us</a></li>
                                 <li><a href="{{route('web.stuf')}}">Academics Stuff</a></li>
-                                <li><a href="{{route('web.admission')}}">Admission</a></li>
+                                {{-- <li><a href="{{route('web.admission')}}">Admission</a></li> --}}
                                 <li><a href="{{route('web.academics')}}">Academics</a></li>
                                 <li><a href="{{route('web.news')}}">Notice</a></li>
                                 <li><a href="#">Result</a></li>
@@ -78,7 +78,7 @@
                                 <li><a href="{{route('web.index')}}">Home</a></li>
                                 <li><a href="{{route('web.about')}}">About us</a></li>
                                 <li><a href="{{route('web.stuf')}}">Academics Stuff</a></li>
-                                <li><a href="{{route('web.admission')}}">Admission</a></li>
+                                {{-- <li><a href="{{route('web.admission')}}">Admission</a></li> --}}
                                 <li><a href="{{route('web.academics')}}">Academics</a></li>
                                 <li><a href="{{route('web.news')}}">Notice</a></li>
                                 <li><a href="#">Result</a></li>
