@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use DataTables;
 use App\Admsn;
+use App\SuperTest;
 
 class AdmsnController extends Controller
 {
@@ -42,5 +43,26 @@ class AdmsnController extends Controller
     {
         $student = Admsn::where('id',$id)->first();
         return view('admin.user.user_details',compact('student'));
+    }
+
+    public function superList()
+    {
+        return view('admin.super_test.list');
+    }
+
+    public function superListAjax(Request $request)
+    {
+        return datatables()->of(SuperTest::latest()->get())
+            ->addIndexColumn()
+            ->addColumn('action', function($row){
+                $btn ='<a href="#" class="btn btn-info btn-xs" target="_blank">View</a>';                
+                return $btn;
+            }) ->addColumn('reg_date', function($row){
+               
+                    return $row->created_at->toDateTimeString();
+                              
+            }) 
+            ->rawColumns(['action','reg_date'])
+            ->make(true);
     }
 }

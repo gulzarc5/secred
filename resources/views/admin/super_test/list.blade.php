@@ -8,7 +8,7 @@
             <div class="x_panel">
 
                 <div class="x_title">
-                    <h2>User List</h2>
+                    <h2>Super Test Registration List</h2>
                     <div class="clearfix"></div>
                 </div>
                 <div>
@@ -18,11 +18,10 @@
                             <tr>
                                 <th>Sl</th>
                                 <th>Name</th>
-                                <th>Stream</th>
-                                <th>Email</th>
+                                <th>Father Name</th>
+                                <th>Whatsapp</th>
                                 <th>Mobile</th>
-                                <th>Payment Type</th>
-                                <th>Payment Status</th>
+                                <th>Gender</th>
                                 <th>Date</th>
                                 <th>Action</th>
                             </tr>
@@ -48,16 +47,21 @@
                 processing: true,
                 serverSide: true,
                 iDisplayLength: 50,
-                ajax: "{{route('admin.user_list_ajax')}}",
+                ajax: "{{route('admin.super.list_ajax')}}",
                 columns: [
                     {data: 'DT_RowIndex', name: 'DT_RowIndex'},      
                     {data: 'name', name: 'name',searchable: true},    
-                    {data: 'stream', name: 'stream',searchable: true},          
-                    {data: 'email', name: 'email',searchable: true},
-                    {data: 'mobile', name: 'mobile',searchable: true}, 
-                    {data: 'payment_typess', name: 'payment_typess' ,searchable: true}, 
-                    {data: 'payment_statuss', name: 'payment_statuss' ,searchable: true},
-                    {data: 'created_at', name: 'created_at' ,searchable: true},
+                    {data: 'father_name', name: 'father_name',searchable: true},          
+                    {data: 'whatsapp_no', name: 'whatsapp_no',searchable: true},
+                    {data: 'mobile_no', name: 'mobile_no',searchable: true}, 
+                    {data: 'gender', name: 'gender' ,searchable: true,render:function(data, type, row){
+                        if (row.gender == 'M') {
+                            return "<label class='label label-info'>Male</label>"
+                        }else{
+                            return "<label class='label label-primary'>Female</label>"
+                        }                        
+                    }},
+                    {data: 'reg_date', name: 'reg_date' ,searchable: true},
                     {data: 'action', name: 'action' ,searchable: true}, 
                 ]
             });            
