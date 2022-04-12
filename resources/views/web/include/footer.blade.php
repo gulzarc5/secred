@@ -8,8 +8,8 @@
                             <img src="{{asset('web/images/3.png')}}" alt="">
                         </div>
                         <div class="col-md-7 bb-text">
-                            <h4>SECRED HEART JUNIOR COLLEGE</h4>
-                            <p>SUPER TEST REGISTRATION For Class 10th to 11th Moving Students (Arts & Commerce) going on Hurry up limited seats</p>
+                            <h4>SACRED HEART JUNIOR COLLEGE</h4>
+                            <p>SACRED SUPER TEST REGISTRATION For Class 10th to 11th Moving Students (Arts & Commerce) going on Hurry up limited seats</p>
                         </div>
                         <div class="col-md-3 bb-link">
                             <a href="{{route('web.super.test')}}">Click to Book Your Seat</a>

@@ -10,6 +10,7 @@ Route::post('send/query/','Web\PagesController@insertQuery')->name('web.insert_q
 
 Route::view('supertest','web.super_test.form')->name("web.super.test");
 Route::post('supertest/submit','Web\SuperTestController@submit')->name("web.super.test.submit");
+Route::view('supertest/success','web.super_test.success')->name("web.super.test.success");
 
 Route::get('/', function () {
     return view('web.index');

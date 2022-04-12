@@ -36,7 +36,7 @@
                                         </div>
                                         <div class="ho-ev-link pg-eve-desc">
                                             <a href="{{route('web.super.test')}}">
-                                                <h4>Click Here For Super Test Registration</h4>
+                                                <h4>Click Here For Sacred Super Test Registration</h4>
                                             </a>
                                             <p>Sacred Super Test' is a highly ambitious and innovative educational program under the banner of "Sacred Heart Senior Secondary School". The main objective of SST is to track the talented bunch of students and hone their skills by providing a conducive environment. SST is considered as an entrance exam for Sacred Heart Senior Secondary School.</p>
                                             <span>11-04-2022</span>

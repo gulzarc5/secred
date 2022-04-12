@@ -23,6 +23,9 @@ class SuperTestController extends Controller
             'medium' => 'required|string|max:255',
             'whatsapp_no' => 'required|numeric|digits:10',
             'mobile_no' => 'required|numeric|digits:10',
+            'date_of_birth' => 'required|date',
+            'roll' => 'required|string|max:255',
+            'no' => 'required|string|max:255',
         ]);
 
         $superTest = new SuperTest();
@@ -38,7 +41,10 @@ class SuperTestController extends Controller
         $superTest->medium = $request->input('medium');
         $superTest->whatsapp_no = $request->input('whatsapp_no');
         $superTest->mobile_no = $request->input('mobile_no');
+        $superTest->dob = $request->input('date_of_birth');
+        $superTest->hslc_roll = $request->input('roll');
+        $superTest->hslc_no = $request->input('no');
         $superTest->save();
-        return back()->with('message',"Your Registration Submitted Successfully");
+        return redirect()->route('web.super.test.success');
     }
 }

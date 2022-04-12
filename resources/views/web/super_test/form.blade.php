@@ -9,17 +9,27 @@
 @endsection
 
 @section('content') 
+<style>
+    .col-sm-12{
+        padding-right:5px;
+        padding-left:5px;
+    }
+    .col-sm-6{
+        padding-right:5px;
+        padding-left:5px;
+    }
+</style>
     <!-- Addmission -->
     <section class="c-all h-quote">
         <div class="container">
             <div class="row">
                 <div class="con-title">
-                    <h2>Super Test Registration<span> Form</span></h2>
+                    <h2>Sacred Super Test Registration<span> Form</span></h2>
                     <p>For Class 10th to 11th Moving Students (Arts & Commerce)</p>
                 </div>
             </div>
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="n-form-com admiss-form">
+                <div class="n-form-com">
                     <div class="col s12">
                     @if (Session::has('message'))
                         <div class="alert alert-success" >{{ Session::get('message') }}</div>
@@ -52,7 +62,7 @@
                                     <input type="text" class="form-control" placeholder="Enter Father Name" name="father_name" value="{{old('father_name')}}">
                                 </div>
 
-                                <div class="col-sm-6">
+                                <div class="col-sm-12">
                                     <label class="control-label">3. Name of mother:
                                         @error('mother_name')
                                             <span style="color:red">
@@ -78,7 +88,38 @@
                                 </div>
 
                                 <div class="col-sm-6">
-                                    <label class="control-label">5. Village/Town:
+                                    <label class="control-label">5. Date Of Birth:
+                                        @error('date_of_birth')
+                                            <span style="color:red">
+                                                {{ $message }}
+                                            </span>
+                                        @enderror
+                                    </label>
+                                    <input type="date" class="form-control" name="date_of_birth" value="{{old('date_of_birth')}}">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="control-label">6. HSLC Roll :
+                                        @error('roll')
+                                            <span style="color:red">
+                                                {{ $message }}
+                                            </span>
+                                        @enderror
+                                    </label>
+                                    <input type="text" placeholder="Enter HSLC Roll" class="form-control" name="roll" value="{{old('roll')}}">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="control-label">7. HSLC No:
+                                        @error('no')
+                                            <span style="color:red">
+                                                {{ $message }}
+                                            </span>
+                                        @enderror
+                                    </label>
+                                    <input type="text" placeholder="Enter HSLC No" class="form-control" name="no" value="{{old('no')}}">
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label class="control-label">8. Village/Town:
                                         @error('village')
                                             <span style="color:red">
                                                 {{ $message }}
@@ -88,7 +129,7 @@
                                     <input type="text" class="form-control" placeholder="Enter Village/Town Name" name="village" value="{{old('village')}}">
                                 </div>
                                 <div class="col-sm-6">
-                                    <label class="control-label">6. Home/Landmark:
+                                    <label class="control-label">9. Home Landmark:
                                         @error('land_mark')
                                             <span style="color:red">
                                                 {{ $message }}
@@ -98,7 +139,7 @@
                                     <input type="text" class="form-control" placeholder="Enter  Home/Landmark Name" name="land_mark" value="{{old('land_mark')}}">
                                 </div>
                                 <div class="col-sm-6">
-                                    <label class="control-label">7. Post Office:
+                                    <label class="control-label">10. Post Office:
                                         @error('po')
                                             <span style="color:red">
                                                 {{ $message }}
@@ -108,7 +149,7 @@
                                     <input type="text" class="form-control" placeholder="Enter Post Office Name" name="po" value="{{old('po')}}">
                                 </div>
                                 <div class="col-sm-6">
-                                    <label class="control-label">8. District:
+                                    <label class="control-label">11. District:
                                         @error('district')
                                             <span style="color:red">
                                                 {{ $message }}
@@ -118,7 +159,7 @@
                                     <input type="text" class="form-control" placeholder="Enter District Name" name="district" value="{{old('district')}}">
                                 </div>
                                 <div class="col-sm-12">
-                                    <label class="control-label">9. Name Of School:
+                                    <label class="control-label">12. Name Of School:
                                         @error('school')
                                             <span style="color:red">
                                                 {{ $message }}
@@ -128,7 +169,7 @@
                                     <input type="text" class="form-control" placeholder="Enter Name Of School" name="school" value="{{old('school')}}">
                                 </div>
                                 <div class="col-sm-12">
-                                    <label class="control-label">10. Medium:
+                                    <label class="control-label">13. Medium:
                                         @error('medium')
                                             <span style="color:red">
                                                 {{ $message }}
@@ -138,7 +179,7 @@
                                     <input type="text" class="form-control" placeholder="Enter Medium" name="medium" value="{{old('medium')}}">
                                 </div>
                                 <div class="col-sm-6">
-                                    <label class="control-label">11. WhatsApp No:
+                                    <label class="control-label">14. WhatsApp No:
                                         @error('whatsapp_no')
                                             <span style="color:red">
                                                 {{ $message }}
@@ -148,7 +189,7 @@
                                     <input type="text" class="form-control" placeholder="Enter WhatsApp No Name" name="whatsapp_no" value="{{old('whatsapp_no')}}">
                                 </div>
                                 <div class="col-sm-6">
-                                    <label class="control-label">12. Mobile Number:
+                                    <label class="control-label">15. Mobile Number:
                                         @error('mobile_no')
                                             <span style="color:red">
                                                 {{ $message }}

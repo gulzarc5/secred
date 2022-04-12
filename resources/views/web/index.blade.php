@@ -33,7 +33,7 @@
                 <div class="item slider1 ">
                     <img src="{{asset('web/images/slider/2.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
-                        <h2>SUPER TEST REGISTRATION OPEN<span> 2022</span></h2>
+                        <h2>SACRED SUPER TEST REGISTRATION OPEN<span> 2022</span></h2>
                         <p>For Class 10th to 11th Moving Students (Arts & Commerce)</p>
                         <a href="#" class="bann-btn-2">For Registration</a> <a href="{{route('web.super.test')}}" class="bann-btn-1">Click Here</a>
                     </div>
@@ -41,7 +41,7 @@
                 <div class="item">
                     <img src="{{asset('web/images/slider/3.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
-                        <h2>SUPER TEST REGISTRATION OPEN<span> 2022</span></h2>
+                        <h2>SACRED SUPER TEST REGISTRATION OPEN<span> 2022</span></h2>
                         <p>For Class 10th to 11th Moving Students (Arts & Commerce)</p>
                         <a href="#" class="bann-btn-2">For Registration</a> <a href="{{route('web.super.test')}}" class="bann-btn-1">Click Here</a>
                     </div>
@@ -90,7 +90,7 @@
                 <div class="con-title">
                     <h4>News and <span>Events</span></h4>
                     <marquee>
-                        <a href="{{route('web.super.test')}}" style="color:red;font-weight:bold;" >Click Here Super Test Registration For Class 10th to 11th Moving Students (Arts & Commerce)</a> &emsp; || &emsp; 
+                        <a href="{{route('web.super.test')}}" style="color:red;font-weight:bold;" >Click Here Sacred Super Test Registration For Class 10th to 11th Moving Students (Arts & Commerce)</a> &emsp; || &emsp; 
                         {{-- <a href="{{asset('web/pdf/scp.pdf')}}" style="color:red;font-weight:bold;" target="_blank">Click Here To Check Secred Heart junior College 2020 Prospectus</a>  --}}
                     </marquee>
                 </div>
@@ -106,7 +106,7 @@
                         <p>l am looking forward to continuing this process with you.</p>                           
                         <p>Sincerely on behalf of allof us at <strong>Sacred Heart Junior College</strong></p>
                         <div style="margin-top: 40px;">
-                            <h1 style="font-family: 'Cookie', cursive;">LKalimohan Singha</h1>
+                            <h1 style="font-family: 'Cookie', cursive;">L Singha</h1>
                             <p style="font-family: 'Cookie', cursive;font-size:20px">
                                 M.A., B.Ed. (Retd. Principal, Indramani H.5. School) <br>
                                 Principal
@@ -124,7 +124,7 @@
                                     </div>
                                     <div class="ho-ev-link">
                                         <a href="{{route('web.super.test')}}" target="_blank">
-                                            <h4>Click Here For Super Test Registration</h4>
+                                            <h4>Click Here For Sacred Super Test Registration</h4>
                                         </a>
                                         <p>Sacred Super Test' is a highly ambitious and innovative educational program under the banner of "Sacred Heart Senior Secondary School". The main objective of SST is to track the talented bunch of students and hone their skills by providing a conducive environment. SST is considered as an entrance exam for Sacred Heart Senior Secondary School.</p>
                                         <span>11-04-2022</span>
