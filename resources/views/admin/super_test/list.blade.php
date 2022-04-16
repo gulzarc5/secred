@@ -9,6 +9,7 @@
 
                 <div class="x_title">
                     <h2>Super Test Registration List</h2>
+                    <a href="{{route('admin.super.export')}}" class="btn btn-sm btn-primary" style="float:right">Download as PDF</a>
                     <div class="clearfix"></div>
                 </div>
                 <div>

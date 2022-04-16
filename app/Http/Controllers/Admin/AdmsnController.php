@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 use DataTables;
 use App\Admsn;
 use App\SuperTest;
-
+use PDF;
 class AdmsnController extends Controller
 {
     public function userList()
@@ -55,7 +55,7 @@ class AdmsnController extends Controller
         return datatables()->of(SuperTest::latest()->get())
             ->addIndexColumn()
             ->addColumn('action', function($row){
-                $btn ='<a href="#" class="btn btn-info btn-xs" target="_blank">View</a>';                
+                $btn ='<a href="'.route('admin.super.details',['id' => $row->id]).'" class="btn btn-info btn-xs" target="_blank">View</a>';                
                 return $btn;
             }) ->addColumn('reg_date', function($row){
                
@@ -64,5 +64,28 @@ class AdmsnController extends Controller
             }) 
             ->rawColumns(['action','reg_date'])
             ->make(true);
+    }
+
+    public function SuperDetails($id)
+    {
+        $student = SuperTest::findOrFail($id);
+        return view('admin.super_test.details',compact('student'));
+    }
+
+    public function SuperTestExport()
+    {
+        $list = SuperTest::latest()->get();
+        $pdf = PDF::loadView('admin.super_test.pdf', compact('list'))->setPaper('letter', 'landscape');
+        // dd($pdf);
+        return $pdf->download('super_test.pdf');
+
+        // $data = [
+        //     'title' => 'First PDF for Medium',
+        //     'heading' => 'Hello from 99Points.info',
+        //     'content' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'        
+        //       ];
+          
+        //   $pdf = PDF::loadView('admin.super_test.pdf', $data);  
+        //   return $pdf->download('medium.pdf');
     }
 }

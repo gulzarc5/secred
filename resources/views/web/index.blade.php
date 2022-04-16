@@ -31,7 +31,7 @@
                     </div> --}}
                 </div>
                 <div class="item slider1 ">
-                    <img src="{{asset('web/images/slider/2.jpg')}}" alt="">
+                    <img src="{{asset('web/images/slider/5.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
                         <h2>SACRED SUPER TEST REGISTRATION OPEN<span> 2022</span></h2>
                         <p>For Class 10th to 11th Moving Students (Arts & Commerce)</p>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img src="{{asset('web/images/slider/3.jpg')}}" alt="">
+                    <img src="{{asset('web/images/slider/6.jpg')}}" alt="">
                     <div class="carousel-caption slider-con">
                         <h2>SACRED SUPER TEST REGISTRATION OPEN<span> 2022</span></h2>
                         <p>For Class 10th to 11th Moving Students (Arts & Commerce)</p>

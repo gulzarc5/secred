@@ -10,8 +10,13 @@ Route::group(['namespace' => 'Admin'],function(){
 
         Route::get('/user/list', 'AdmsnController@userList')->name('admin.user_list');
         Route::get('/user/list/ajax', 'AdmsnController@userListAjax')->name('admin.user_list_ajax');
+
         Route::get('/super/list', 'AdmsnController@superList')->name('amin.super.list');
         Route::get('/super/list/ajax', 'AdmsnController@superListAjax')->name('admin.super.list_ajax');
+        Route::get('/super/details/{id}', 'AdmsnController@SuperDetails')->name('admin.super.details');
+        Route::get('/super/test/export', 'AdmsnController@SuperTestExport')->name('admin.super.export');
+
+        
         Route::get('/user/details/{id}', 'AdmsnController@userDetails')->name('admin.user_details');
         Route::get('/students/query/', 'DashboardController@userQuery')->name('admin.students_query');
     });
